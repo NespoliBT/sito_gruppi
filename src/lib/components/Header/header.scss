@@ -2,14 +2,14 @@
 
 .header {
   width: 100%;
-  box-shadow: var(--shadow);
+  box-shadow: var(--border-shadow);
   display: flex;
   justify-content: space-between;
-  align-items: flex-end;
   padding: 32px;
   background-color: var(--white);
   flex-wrap: wrap;
   gap: 32px;
+  align-items: center;
 
   .logo {
     display: flex;
@@ -28,6 +28,21 @@
     .title {
       @include title(3.5rem, 600, 0);
       line-height: 1;
+    }
+  }
+
+  .dark-mode {
+    button {
+      font-family: NerdFont;
+      font-size: 2rem;
+      background: transparent;
+      cursor: pointer;
+      height: 50px;
+      width: 50px;
+
+      @media screen and (max-width: 768px) {
+        font-size: 3rem;
+      }
     }
   }
 }
