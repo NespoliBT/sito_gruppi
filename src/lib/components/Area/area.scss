@@ -1,0 +1,15 @@
+@import '$lib/scss/variables.scss';
+
+.area {
+    background: var(--white-alt);
+    aspect-ratio: 16/9;
+    font-size: 3rem;
+
+    padding: 32px;
+
+    border-radius: 16px;
+    box-shadow: var(--border-shadow);
+
+    display: grid;
+    place-items: center;
+}

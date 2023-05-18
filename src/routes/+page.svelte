@@ -1,2 +1,17 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script lang="ts">
+  import Footer from "$lib/components/Footer/Footer.svelte";
+  import Header from "$lib/components/Header/Header.svelte";
+  import Groups from "$lib/components/Groups/Groups.svelte";
+
+  console.log("page");
+</script>
+
+<Header />
+<div class="homepage">
+  <Groups />
+</div>
+
+<style lang="scss">
+  @import "$lib/scss/homepage.scss";
+  @import "$lib/scss/standard.scss";
+</style>

@@ -1,0 +1,37 @@
+@mixin two-columns($min-width: 250px) {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax($min-width, 1fr));
+
+  @media screen and (max-width: 600px) {
+    grid-template-columns: 1fr;
+  }
+}
+
+@mixin container($width: 1440px, $margin: 16px) {
+  width: $width;
+  margin: 0 auto;
+  max-width: calc(100% - #{$margin * 2});
+}
+
+@mixin title($size: 3rem, $weight: 600, $margin: 32px) {
+  font-size: $size;
+  font-weight: $weight;
+  margin-bottom: $margin;
+  color: var(--accent);
+}
+
+@mixin button {
+  background: transparent;
+  padding: 16px 24px;
+  color: var(--black);
+  font-weight: 800;
+  border-radius: 16px;
+  cursor: pointer;
+  transition: 0.2s;
+  border: 5px solid var(--accent);
+
+  &:hover {
+    background: var(--accent);
+    color: var(--white);
+  }
+}

@@ -1,0 +1,9 @@
+@import '$lib/scss/variables.scss';
+
+.groups {
+    @include container;
+    display: grid;
+    gap: 32px;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    padding: 32px;
+}
