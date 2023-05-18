@@ -18,6 +18,10 @@
   font-weight: $weight;
   margin-bottom: $margin;
   color: var(--accent);
+
+  @media screen and (max-width: 768px) {
+    font-size: calc($size * 0.8);
+  }
 }
 
 @mixin button {
