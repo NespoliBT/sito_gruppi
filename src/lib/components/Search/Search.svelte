@@ -13,7 +13,7 @@
 
   function search(e: Event) {
     const target = e.currentTarget as HTMLInputElement;
-    const searchQuery: string = target.value;
+    const searchQuery: string = target.value.toLowerCase();
 
     searchResults = {
       list: [],
