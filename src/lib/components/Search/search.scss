@@ -15,6 +15,13 @@
         font-weight: 600;
         width: 100%;
         min-width: 300px;
+
+        @media screen and (max-width: 768px) {
+            font-size: 2.5rem;
+            padding: 16px 32px;
+
+            min-width: unset;
+        }
     }
 
     .search-results {
@@ -67,7 +74,7 @@
                     }
 
                     &.whatsapp {
-                        background: green;
+                        background: #46dc5f;
                     }
                 }
             }

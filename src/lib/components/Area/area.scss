@@ -72,52 +72,63 @@
         }
 
         .department {
-            display: flex;
-            flex-direction: column;
             margin-bottom: 32px;
 
             .subtitle {
-                @include title(2rem, 600, 0)
+                @include title(2rem, 600, 0);
+                margin-bottom: 16px;
             }
 
-            .course {
-                display: flex;
-                justify-content: space-between;
-                border-bottom: 2px dashed var(--white-alt);
-                padding: 16px;
-                align-items: center;
+            .courses {
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+                gap: 16px;
 
-                &:last-of-type {
-                    border-bottom: none;
+                @media screen and (max-width: 768px) {
+                    grid-template-columns: 1fr;
                 }
 
-                .course-name {
-                    font-size: 1.5rem;
-                }
-
-                .links {
+                .course {
                     display: flex;
-                    gap: 8px;
+                    justify-content: space-between;
+                    padding: 16px;
+                    align-items: center;
+                    background: var(--white);
+                    border-radius: 8px;
+                    box-shadow: var(--shadow);
 
-                    .link {
-                        font-family: NerdFont;
-                        color: var(--white);
-                        font-size: 24px;
-                        padding: 8px;
-                        height: 50px;
-                        width: 50px;
+                    &:last-of-type {
+                        border-bottom: none;
+                    }
+
+                    .course-name {
+                        font-size: 1.5rem;
+                    }
+
+                    .links {
                         display: flex;
-                        align-items: center;
-                        justify-content: center;
-                        letter-spacing: 10px;
-                        border-radius: 8px;
+                        gap: 8px;
 
-                        &.telegram {
-                            background: #00a4d9;
-                        }
+                        .link {
+                            font-family: NerdFont;
+                            color: var(--white);
+                            font-size: 24px;
+                            padding: 8px;
+                            height: 50px;
+                            width: 50px;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            letter-spacing: 10px;
+                            border-radius: 8px;
 
-                        &.whatsapp {
-                            background: green;
+                            &.telegram {
+                                background: #00a4d9;
+                            }
+
+                            &.whatsapp {
+                                background: #46dc5f;
+                            }
                         }
                     }
                 }

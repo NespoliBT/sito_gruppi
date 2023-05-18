@@ -1,5 +1,9 @@
 <script lang="ts">
   import { groups } from "$lib/data/groups";
+  import { onMount } from "svelte";
+  import { fly } from "svelte/transition";
+
+  let open = false;
 
   export let searchResults: {
     list: Array<any>;
@@ -9,7 +13,17 @@
     other: [],
   };
 
-  console.log(searchResults.list);
+  onMount(() => {
+    document.addEventListener("click", (e) => {
+      const target = e.target as HTMLElement;
+      const parent = target.parentElement as HTMLElement;
+      console.log(target);
+
+      if (!parent.classList.contains("search")) {
+        open = false;
+      }
+    });
+  });
 
   function search(e: Event) {
     const target = e.currentTarget as HTMLInputElement;
@@ -21,6 +35,8 @@
     };
 
     if (!searchQuery) return;
+
+    open = true;
 
     for (const area in groups) {
       const group = groups[area];
@@ -40,14 +56,19 @@
       }
     }
 
-    console.log(searchResults.list);
+    // console.log(searchResults.list);
   }
 </script>
 
 <div class="search">
-  <input type="text" on:input={search} placeholder="Cerca un gruppo" />
-  {#if searchResults.list.length}
-    <div class="search-results">
+  <input
+    type="text"
+    on:input={search}
+    placeholder="Cerca un gruppo"
+    on:click={() => (open = true)}
+  />
+  {#if searchResults.list.length && open}
+    <div class="search-results" in:fly={{ y: -50 }} out:fly={{ y: -50 }}>
       {#each searchResults.list as group}
         <div class="group">
           <div class="group-name">
@@ -59,9 +80,9 @@
                 href={link}
                 target="_blank"
                 class="link
-            {link.includes('whatsapp') ? 'whatsapp' : ''}
-            {link.includes('t.me') ? 'telegram' : ''}
-            "
+                  {link.includes('whatsapp') ? 'whatsapp' : ''}
+                  {link.includes('t.me') ? 'telegram' : ''}
+                "
               >
                 {#if link.includes("whatsapp")}
                   

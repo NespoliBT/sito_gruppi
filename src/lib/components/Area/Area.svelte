@@ -43,32 +43,33 @@
           <div class="subtitle">
             {area}
           </div>
-
-          {#each group[area].list as course}
-            <div class="course">
-              <div class="course-name">
-                {course.name}
-              </div>
-              <div class="links">
-                {#each course.links as link}
-                  <a
-                    href={link}
-                    target="_blank"
-                    class="link
+          <div class="courses">
+            {#each group[area].list as course}
+              <div class="course">
+                <div class="course-name">
+                  {course.name}
+                </div>
+                <div class="links">
+                  {#each course.links as link}
+                    <a
+                      href={link}
+                      target="_blank"
+                      class="link
                   {link.includes('whatsapp') ? 'whatsapp' : ''}
                   {link.includes('t.me') ? 'telegram' : ''}
                   "
-                  >
-                    {#if link.includes("whatsapp")}
-                      
-                    {:else if link.includes("t.me")}
-                      
-                    {/if}
-                  </a>
-                {/each}
+                    >
+                      {#if link.includes("whatsapp")}
+                        
+                      {:else if link.includes("t.me")}
+                        
+                      {/if}
+                    </a>
+                  {/each}
+                </div>
               </div>
-            </div>
-          {/each}
+            {/each}
+          </div>
         </div>
       {/each}
     </div>
