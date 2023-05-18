@@ -1,18 +1,79 @@
 <script lang="ts">
   import { groups } from "$lib/data/groups";
+  import { fly, scale } from "svelte/transition";
+  import { onMount } from "svelte";
 
   export let area: keyof typeof groups;
 
-  console.log(typeof area);
-
   let group = groups[area];
-
   let areaName = area.charAt(0).toUpperCase() + area.slice(1);
+  let open = false;
+
+  console.log(group);
+
+  onMount(() => {
+    document.addEventListener("keydown", (e) => {
+      if (e.key == "Escape") open = false;
+    });
+  });
+
+  function closePopup(e: MouseEvent) {
+    const target = e.target as HTMLElement;
+
+    if (target.classList.contains("popup-container")) {
+      open = false;
+    }
+  }
 </script>
 
-<div class="area">
+<button class="area" on:click={() => (open = true)}>
   {areaName}
-</div>
+</button>
+
+{#if open}
+  <div class="popup-container" in:scale out:scale on:mouseup={closePopup}>
+    <div class="popup">
+      <button class="close" on:click={() => (open = false)}></button>
+      <div class="title">
+        {areaName}
+      </div>
+
+      {#each Object.keys(group) as area}
+        <div class="department">
+          <div class="subtitle">
+            {area}
+          </div>
+
+          {#each group[area].list as course}
+            <div class="course">
+              <div class="course-name">
+                {course.name}
+              </div>
+              <div class="links">
+                {#each course.links as link}
+                  <a
+                    href={link}
+                    target="_blank"
+                    class="link
+                  {link.includes('whatsapp') ? 'whatsapp' : ''}
+                  {link.includes('t.me') ? 'telegram' : ''}
+                  "
+                  >
+                    {#if link.includes("whatsapp")}
+                      
+                    {:else if link.includes("t.me")}
+                      
+                    {/if}
+                  </a>
+                {/each}
+              </div>
+            </div>
+          {/each}
+        </div>
+      {/each}
+    </div>
+  </div>
+{/if}
 
 <style lang="scss">
   @import "./area.scss";

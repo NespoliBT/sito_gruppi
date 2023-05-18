@@ -6,9 +6,12 @@
 </script>
 
 <div class="groups">
-  {#each aree as area}
-    <Area {area} />
-  {/each}
+  <div class="title">Gruppi matricole</div>
+  <div class="areas">
+    {#each aree as area}
+      <Area {area} />
+    {/each}
+  </div>
 </div>
 
 <style lang="scss">

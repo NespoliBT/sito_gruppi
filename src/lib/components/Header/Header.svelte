@@ -1,13 +1,7 @@
 <script lang="ts">
-  import { onMount } from "svelte";
   import Search from "$lib/components/Search/Search.svelte";
 
-  let height = 0;
   let header: HTMLDivElement;
-
-  onMount(() => {
-    height = header.offsetHeight;
-  });
 </script>
 
 <div class="header" bind:this={header}>
@@ -21,8 +15,6 @@
 
   <Search />
 </div>
-
-<div class="header-fix" style="height: {height}px" />
 
 <style lang="scss">
   @import "./header.scss";
