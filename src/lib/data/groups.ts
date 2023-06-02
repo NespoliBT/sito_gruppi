@@ -130,31 +130,59 @@ const groups = {
     Economia: {
       list: [
         {
-          name: 'Ecoban',
+          name: 'Ecoban A-LH',
           links: [
             'https://chat.whatsapp.com/EH82U7x0vqDL3EcPYsRmAm',
             'https://t.me/MatricoleEcoban2223',
           ],
         },
         {
-          name: 'Ecoamm',
+          name: "Ecoban LI-Z",
+          links: [
+            'https://chat.whatsapp.com/CBMonnY1GeN95YzDpxYnnm',
+            'https://t.me/MatricoleEcoban2223',
+          ],
+        },
+        {
+          name: 'Ecoamm A-LH',
           links: [
             'https://chat.whatsapp.com/ExGkEtej7ik45hT5PPrmPX',
             'https://t.me/MatricoleEoamm2223',
           ],
         },
         {
-          name: 'Ecocom',
+          name: "Ecoamm LI-Z",
+          links: [
+            'https://chat.whatsapp.com/EhlevK4YdO9D4sJjWPSZ9X',
+            'https://t.me/MatricoleEoamm2223',
+          ],
+        },
+        {
+          name: 'Ecodam A-LH',
           links: [
             'https://chat.whatsapp.com/KqcokhN2iJkC2wkpLmG9xr',
             'https://t.me/MatricoleEcocomm223',
           ],
         },
         {
-          name: 'Ecomark',
+          name: 'Ecodam LI-Z',
+          links: [
+            'https://chat.whatsapp.com/LrHTiv1DItE4RDfPrTwKkq',
+            'https://t.me/MatricoleEcocomm223',
+          ],
+        },
+        {
+          name: 'Ecomark A-LH',
           links: [
             'https://chat.whatsapp.com/FqHQan7gRZy5bLSnRwjpug',
             'https://t.me/MatricoleEcomark2223',
+          ],
+        },
+        {
+          name: 'Ecomark LI-Z',
+          links: [
+            'https://chat.whatsapp.com/HCL3AKu7uHM6w8sDl4btQU',
+            'https://t.me/MatricoleEcomark2223'
           ],
         },
         {
@@ -170,16 +198,24 @@ const groups = {
           links: ['https://chat.whatsapp.com/BQZ637O45yKEuPiCKpBOcN'],
         },
         {
-          name: 'Ecomarks',
+          name: 'Ecomarks ITA',
           links: ['https://chat.whatsapp.com/JsbPOQBAJI96LB3USgPGBu'],
+        },
+        {
+          name: 'Ecomarks ENG',
+          links: ['https://chat.whatsapp.com/ENaLw8koXziECqBCincpky']
         },
         {
           name: 'Mages',
           links: ['https://chat.whatsapp.com/F3KJQrcqM2c8g7CgPIxAUC'],
         },
         {
-          name: 'Ecoaz',
+          name: 'Ecoaz LEGI',
           links: ['https://chat.whatsapp.com/BuTfmDNP9M7BRBlofyj5l4'],
+        },
+        {
+          name: 'Ecoaz MAN',
+          links: ['https://chat.whatsapp.com/HgCjb1pQ1eS14sA2sBlelo'],
         },
       ],
       other: [
@@ -275,7 +311,65 @@ const groups = {
           ],
         },
       ]
-    }
+    },
+    'Formazione': {
+      list: [
+        {
+          name: "Scienze dell'Educazione",
+          links: [
+            'https://chat.whatsapp.com/D2kXoN4ogcrI7tBtd6NiFB',
+            'https://t.me/+Umx9dEfvgd82Mjhk',
+          ],
+        },
+        {
+          name: "Comunicazione Interculturale",
+          links: ['https://chat.whatsapp.com/GRRrICI9ixWICY9i255HjA'],
+        },
+        {
+          name: "Formazione Primaria",
+          links: [
+            'https://chat.whatsapp.com/JpU0iu9dG7TCutkXnoCm8q',
+            'https://t.me/MtricoleFormPrim2223',
+          ],
+        },
+        {
+          name: 'Scienze pedagogiche',
+          links: ['https://chat.whatsapp.com/IpAFV7o0rLkACAPXhXCo2T'],
+        },
+        {
+          name: "Scienze antropologiche ed etnologiche",
+          links: ['https://chat.whatsapp.com/D4q7MTFMVnyA52K6mT1k32'],
+        },
+        {
+          name: "Formazione e sviluppo delle risorse umane",
+          links: ['https://chat.whatsapp.com/CzKl0JRmcmSLD02MwlYMkd'],
+        },
+      ],
+    },
+    'Giurisprudenza': {
+      list: [
+        {
+          name: "Giurisprudenza (LM ciclo unico) A-L",
+          links: ['https://chat.whatsapp.com/C3ZykYf1QDVJjvEJLWWjew'],
+        },
+        {
+          name: "Giurisprudenza (LM ciclo unico) M-Z",
+          links: ['https://chat.whatsapp.com/KIAMneRyjiFCBeDNlHJNt7 '],
+        },
+        {
+          name: "Scienze dei servizi giuridici A-L",
+          links: ['https://chat.whatsapp.com/HgqXw4dDENB3hkpn8V1qRL'],
+        },
+        {
+          name: "Scienze dei servizi giuridici M-Z",
+          links: ['https://chat.whatsapp.com/IKorjUQqIK90nJUZtxvC2m'],
+        },
+        {
+          name: "Diritto delle organizzazioni",
+          links: ['https://chat.whatsapp.com/Ej6qahm7xCiCAXSYuUjEYB'],
+        },
+      ],
+    },
   }
 }
 
