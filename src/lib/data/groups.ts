@@ -216,6 +216,67 @@ const groups = {
       ],
     },
   },
+  umanistiche: {
+    'Sociologia e Ricerca Sociale': {
+      list: [
+        {
+          name: 'Sociologia',
+          links: [
+            'https://chat.whatsapp.com/IpAFV7o0rLkACAPXhXCo2T',
+            'https://t.me/matricolesociologia2223'
+          ],
+        },
+        {
+          name: 'Servizio Sociale',
+          links: [
+            'https://chat.whatsapp.com/EGOaPJum4IWA6QHPylBr4m',
+            'https://t.me/serviziosociale2223'
+          ],
+        },
+        {
+          name: 'Scienze del turismo e comunità locale ',
+          links: [
+            'https://chat.whatsapp.com/IDxWCQqQaLQLteXwABepEh',
+            'https://t.me/scienzedelturismo2223'
+          ],
+        },
+        {
+          name: "Scienze dell'organizzazione",
+          links: [
+            'https://chat.whatsapp.com/KYhfeies3m7BGaHJgydNxN',
+            'https://t.me/scienzeorganizzazione2223 '
+          ],
+        },
+        {
+          name: "Progest",
+          links: [
+            'https://chat.whatsapp.com/HbfdFQcZmqd79vrKwZ7J5j',
+            'http://t.me/matricoleprogest2223'
+          ],
+        },
+        {
+          name: "Analisi dei processi sociali",
+          links: [
+            'https://chat.whatsapp.com/ENy39RVKiKY1rOzeINXT4i',
+            'http://t.me/matricoleanalisi2223'
+          ],
+        },
+        {
+          name: "Mages",
+          links: [
+            'https://chat.whatsapp.com/F3KJQrcqM2c8g7CgPIxAUC'
+          ],
+        },
+        {
+          name: "Turismo magistrale",
+          links: [
+            'https://chat.whatsapp.com/FqMO9swSzrjLHz2iau508s',
+            'https://t.me/matricoleturismo2223'
+          ],
+        },
+      ]
+    }
+  }
 }
 
 export { groups }
