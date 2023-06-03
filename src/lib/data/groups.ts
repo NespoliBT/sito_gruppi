@@ -370,7 +370,71 @@ const groups = {
         },
       ],
     },
-  }
+  },
+  "Psicologia": {
+      list: [
+        {
+          name: 'Scienze e tecniche psicologiche',
+          links: ['https://chat.whatsapp.com/IpAFV7o0rLkACAPXhXCo2T'],
+        },
+        {
+          name: "Scienze psicosociali della comunicazione",
+          links: ['https://chat.whatsapp.com/J6mRlIxtvao1jmyxVW3MrU'],
+        },
+        {
+          name: "Psicologia sociale, economica e delle decisioni",
+          links: ['https://chat.whatsapp.com/LGvZGLFwa9R8U1BJLwH2rT'],
+        },
+        {
+          name: "Psicologia dello sviluppo e dei processi educativi",
+          links: ['https://chat.whatsapp.com/Dw5sy5nOkSe8JPaFOZpMHs'],
+        },
+        {
+          name: "Applied experimental psychological sciences",
+          links: ['https://chat.whatsapp.com/CCoPXRiDF5KAJss9TztBhi'],
+        },
+        {
+          name: "Neuropsicologia e neuroscienze cognitive",
+          links: ['https://chat.whatsapp.com/De2XbU2oHex5TSEQEUxCQR'],
+        },
+        {
+          name: "Psicologia clinica",
+          links: ['https://chat.whatsapp.com/Fr3027Cs2hXBd35K4PNBl8'],
+        },
+        {
+          name: "Lingua dei segni",
+          links: ['https://chat.whatsapp.com/Gc3CsmOq1yoDTImLrE5Ly8'],
+        },
+      ],
+    },
+  "professioni sanitarie": {
+    Medicina: {
+      list: [
+        {
+          name: "Medicina",
+          links: ['https://chat.whatsapp.com/KEL6nP7EtmT2PUzrlgdOri',
+        'https://t.me/MatricoleMedicina2223'],
+        },
+        {
+          name: "Odontoiatria",
+          links: ['https://chat.whatsapp.com/DFbkfZJx37OKNuIXzMa7uF'],
+        },
+        {
+          name: "Professioni sanitarie",
+          links: ['https://chat.whatsapp.com/GKFG9mo8vxhAvJT1Gh2jeV',
+        'https://t.me/MatricoleSanitarie2223'],
+        },
+        {
+          name: "Medicina in inglese",
+          links: ['https://chat.whatsapp.com/IgOTnayB2Js41phI57UtZu'],
+        },
+        {
+          name: "Biotecnologie mediche",
+          links: ['https://chat.whatsapp.com/E489W2fTxs9EBBeOqL7Vvo'],
+        },
+      ],
+    },
+  },
 }
 
 export { groups }
