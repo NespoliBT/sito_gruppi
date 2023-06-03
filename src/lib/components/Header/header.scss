@@ -13,9 +13,13 @@
 
   .logo {
     display: flex;
-    align-items: end;
+    align-items: center;
     gap: 32px;
     flex: 1 1;
+
+    @media screen and (max-width: 768px) {
+      gap: 16px;
+    }
 
     img {
       height: 110px;
@@ -23,6 +27,10 @@
 
       @media screen and (max-width: 768px) {
         height: 70px;
+      }
+
+      @media screen and (max-width: 480px) {
+        height: 50px;
       }
     }
 

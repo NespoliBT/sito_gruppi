@@ -40,8 +40,26 @@
 
       {#each Object.keys(group) as area}
         <div class="department">
-          <div class="subtitle">
-            {area}
+          <div class="header">
+            <div class="subtitle">
+              {area}
+            </div>
+            <div class="other-container">
+              {#each group[area].other as other}
+                <a
+                  href={other.link}
+                  class="other
+                  {other.link.includes('instagram') ? 'instagram' : ''}
+                  {other.link.includes('t.me') ? 'telegram' : ''}"
+                >
+                  {#if other.link.includes("instagram")}
+                    
+                  {:else if other.link.includes("t.me")}
+                    
+                  {/if}
+                </a>
+              {/each}
+            </div>
           </div>
           <div class="courses">
             {#each group[area].list as course}

@@ -43,6 +43,12 @@
         overflow: scroll;
         position: relative;
 
+        @media screen and (max-width: 768px) {
+            padding: 16px;
+            max-height: 100%;
+            max-width: 100%;
+        }
+
         .close {
             font-family: NerdFont;
             background-color: var(--accent);
@@ -64,6 +70,10 @@
             @media screen and (max-width: 768px) {
                 height: 30px;
                 width: 30px;
+                padding: 4px;
+                border-radius: 8px;
+                top: 16px;
+                right: 16px;
             }
         }
 
@@ -74,9 +84,23 @@
         .department {
             margin-bottom: 32px;
 
-            .subtitle {
-                @include title(2rem, 600, 0);
-                margin-bottom: 16px;
+            .header {
+                display: flex;
+                justify-content: space-between;
+                .subtitle {
+                    @include title(2rem, 600, 0);
+                    margin-bottom: 32px;
+                }
+
+                .other-container {
+                    display: flex;
+                    gap: 8px;
+                    padding-right: 8px;
+
+                    .other {
+                        @include groupButton;
+                    }
+                }
             }
 
             .courses {
@@ -110,25 +134,7 @@
                         gap: 8px;
 
                         .link {
-                            font-family: NerdFont;
-                            color: var(--white);
-                            font-size: 24px;
-                            padding: 8px;
-                            height: 50px;
-                            width: 50px;
-                            display: flex;
-                            align-items: center;
-                            justify-content: center;
-                            letter-spacing: 10px;
-                            border-radius: 8px;
-
-                            &.telegram {
-                                background: #00a4d9;
-                            }
-
-                            &.whatsapp {
-                                background: #46dc5f;
-                            }
+                            @include groupButton;
                         }
                     }
                 }
