@@ -370,8 +370,7 @@ const groups = {
         },
       ],
     },
-  },
-  "Psicologia": {
+    "Psicologia": {
       list: [
         {
           name: 'Scienze e tecniche psicologiche',
@@ -407,34 +406,35 @@ const groups = {
         },
       ],
     },
-  "professioni sanitarie": {
-    Medicina: {
-      list: [
-        {
-          name: "Medicina",
-          links: ['https://chat.whatsapp.com/KEL6nP7EtmT2PUzrlgdOri',
-        'https://t.me/MatricoleMedicina2223'],
-        },
-        {
-          name: "Odontoiatria",
-          links: ['https://chat.whatsapp.com/DFbkfZJx37OKNuIXzMa7uF'],
-        },
-        {
-          name: "Professioni sanitarie",
-          links: ['https://chat.whatsapp.com/GKFG9mo8vxhAvJT1Gh2jeV',
-        'https://t.me/MatricoleSanitarie2223'],
-        },
-        {
-          name: "Medicina in inglese",
-          links: ['https://chat.whatsapp.com/IgOTnayB2Js41phI57UtZu'],
-        },
-        {
-          name: "Biotecnologie mediche",
-          links: ['https://chat.whatsapp.com/E489W2fTxs9EBBeOqL7Vvo'],
-        },
-      ],
+    "professioni sanitarie": {
+      Medicina: {
+        list: [
+          {
+            name: "Medicina",
+            links: ['https://chat.whatsapp.com/KEL6nP7EtmT2PUzrlgdOri',
+              'https://t.me/MatricoleMedicina2223'],
+          },
+          {
+            name: "Odontoiatria",
+            links: ['https://chat.whatsapp.com/DFbkfZJx37OKNuIXzMa7uF'],
+          },
+          {
+            name: "Professioni sanitarie",
+            links: ['https://chat.whatsapp.com/GKFG9mo8vxhAvJT1Gh2jeV',
+              'https://t.me/MatricoleSanitarie2223'],
+          },
+          {
+            name: "Medicina in inglese",
+            links: ['https://chat.whatsapp.com/IgOTnayB2Js41phI57UtZu'],
+          },
+          {
+            name: "Biotecnologie mediche",
+            links: ['https://chat.whatsapp.com/E489W2fTxs9EBBeOqL7Vvo'],
+          },
+        ],
+      },
     },
-  },
+  }
 }
 
 export { groups }
