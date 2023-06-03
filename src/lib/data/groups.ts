@@ -310,7 +310,8 @@ const groups = {
             'https://t.me/matricoleturismo2223'
           ],
         },
-      ]
+      ],
+      other: []
     },
     'Formazione': {
       list: [
@@ -345,6 +346,7 @@ const groups = {
           links: ['https://chat.whatsapp.com/CzKl0JRmcmSLD02MwlYMkd'],
         },
       ],
+      other: []
     },
     'Giurisprudenza': {
       list: [
@@ -369,6 +371,7 @@ const groups = {
           links: ['https://chat.whatsapp.com/Ej6qahm7xCiCAXSYuUjEYB'],
         },
       ],
+      other: []
     },
     "Psicologia": {
       list: [
@@ -405,34 +408,34 @@ const groups = {
           links: ['https://chat.whatsapp.com/Gc3CsmOq1yoDTImLrE5Ly8'],
         },
       ],
+      other: []
     },
-    "professioni sanitarie": {
-      Medicina: {
-        list: [
-          {
-            name: "Medicina",
-            links: ['https://chat.whatsapp.com/KEL6nP7EtmT2PUzrlgdOri',
-              'https://t.me/MatricoleMedicina2223'],
-          },
-          {
-            name: "Odontoiatria",
-            links: ['https://chat.whatsapp.com/DFbkfZJx37OKNuIXzMa7uF'],
-          },
-          {
-            name: "Professioni sanitarie",
-            links: ['https://chat.whatsapp.com/GKFG9mo8vxhAvJT1Gh2jeV',
-              'https://t.me/MatricoleSanitarie2223'],
-          },
-          {
-            name: "Medicina in inglese",
-            links: ['https://chat.whatsapp.com/IgOTnayB2Js41phI57UtZu'],
-          },
-          {
-            name: "Biotecnologie mediche",
-            links: ['https://chat.whatsapp.com/E489W2fTxs9EBBeOqL7Vvo'],
-          },
-        ],
-      },
+    "Professioni sanitarie": {
+      list: [
+        {
+          name: "Medicina",
+          links: ['https://chat.whatsapp.com/KEL6nP7EtmT2PUzrlgdOri',
+            'https://t.me/MatricoleMedicina2223'],
+        },
+        {
+          name: "Odontoiatria",
+          links: ['https://chat.whatsapp.com/DFbkfZJx37OKNuIXzMa7uF'],
+        },
+        {
+          name: "Professioni sanitarie",
+          links: ['https://chat.whatsapp.com/GKFG9mo8vxhAvJT1Gh2jeV',
+            'https://t.me/MatricoleSanitarie2223'],
+        },
+        {
+          name: "Medicina in inglese",
+          links: ['https://chat.whatsapp.com/IgOTnayB2Js41phI57UtZu'],
+        },
+        {
+          name: "Biotecnologie mediche",
+          links: ['https://chat.whatsapp.com/E489W2fTxs9EBBeOqL7Vvo'],
+        },
+      ],
+      other: []
     },
   }
 }

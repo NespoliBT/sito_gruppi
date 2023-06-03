@@ -45,20 +45,22 @@
               {area}
             </div>
             <div class="other-container">
-              {#each group[area].other as other}
-                <a
-                  href={other.link}
-                  class="other
+              {#if group[area].other.length > 0}
+                {#each group[area].other as other}
+                  <a
+                    href={other.link}
+                    class="other
                   {other.link.includes('instagram') ? 'instagram' : ''}
                   {other.link.includes('t.me') ? 'telegram' : ''}"
-                >
-                  {#if other.link.includes("instagram")}
-                    
-                  {:else if other.link.includes("t.me")}
-                    
-                  {/if}
-                </a>
-              {/each}
+                  >
+                    {#if other.link.includes("instagram")}
+                      
+                    {:else if other.link.includes("t.me")}
+                      
+                    {/if}
+                  </a>
+                {/each}
+              {/if}
             </div>
           </div>
           <div class="courses">
