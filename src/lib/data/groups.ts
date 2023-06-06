@@ -120,7 +120,7 @@ const groups = {
         },
       ],
       other: [],
-    }
+    },
     "Matematica & Applicazioni": {
       list: [
         {
