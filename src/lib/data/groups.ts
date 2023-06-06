@@ -104,6 +104,23 @@ const groups = {
         },
       ],
     },
+    Fisica: {
+      list: [
+        {
+          name: "Fisica T1",
+          links: ["https://chat.whatsapp.com/G4iacP9vcW03gON5xbZbfK"],
+        },
+        {
+          name: "Fisica T2",
+          links: ["https://chat.whatsapp.com/HWqpHGzXDaZ4UV3rbzcsBh"],
+        },
+        {
+          name: "Fisica T3",
+          links: ["https://chat.whatsapp.com/KUC3lvmAVom1p4FWDugd9w"],
+        },
+      ],
+      other: [],
+    }
     "Matematica & Applicazioni": {
       list: [
         {
