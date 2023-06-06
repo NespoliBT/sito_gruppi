@@ -375,7 +375,7 @@ const groups = {
       list: [
         {
           name: "Scienze e tecniche psicologiche",
-          links: ["https://chat.whatsapp.com/IpAFV7o0rLkACAPXhXCo2T"],
+          links: ["https://chat.whatsapp.com/GuZ3htpAdfl3ARaDoiJ36P"],
         },
         {
           name: "Scienze psicosociali della comunicazione",
