@@ -1,4 +1,40 @@
 const groups = {
+  "gruppi generali": {
+    "Tematiche varie": {
+      list: [
+        {
+          name: "Info per il diritto allo studio",
+          links: ["https://chat.whatsapp.com/I2ck9KJ9tPbK6shmwZs4Az"],
+        },
+        {
+          name: "Compravendita libri usati",
+          links: ["https://t.me/joinchat/cqUq1MlVcvdhYWM0"],
+        },
+        {
+          name: "Residenze Bicocca",
+          links: ["https://t.me/residenzebicocca"],
+        },
+        {
+          name: "Cerco Affitti",
+          links: ["https://t.me/joinchat/8Mf2cnghU_JkZmY8"],
+        },
+        {
+          name: "Part Time Bicocca",
+          links: ["https://chat.whatsapp.com/B7fZfw948CXC8OCjaWSe5M"],
+        },
+        {
+          name: "Percorso 60 CFU ",
+          links: ["https://t.me/joinchat/CS-BEBhxwMa_yBOhrAfTYg"],
+        },
+      ],
+      other: [
+        {
+          name: "Instagram",
+          link: "https://instagram.com/studentiindipendentibicocca",
+        },
+      ],
+    },
+  },
   scienze: {
     Informatica: {
       list: [
@@ -269,8 +305,8 @@ const groups = {
       ],
     },
   },
-  umanistiche: {
-    "Sociologia e Ricerca Sociale": {
+  sociologia: {
+    "": {
       list: [
         {
           name: "Sociologia",
@@ -315,10 +351,6 @@ const groups = {
           ],
         },
         {
-          name: "Mages",
-          links: ["https://chat.whatsapp.com/F3KJQrcqM2c8g7CgPIxAUC"],
-        },
-        {
           name: "Turismo magistrale",
           links: [
             "https://chat.whatsapp.com/FqMO9swSzrjLHz2iau508s",
@@ -326,31 +358,46 @@ const groups = {
           ],
         },
       ],
-      other: [],
+      other: [
+        {
+          name: "Instagram",
+          link: "https://www.instagram.com/sociologia.unimib",
+        },
+      ],
     },
-    Formazione: {
+  },
+  formazione: {
+    "": {
       list: [
         {
           name: "Scienze dell'Educazione",
           links: [
             "https://chat.whatsapp.com/D2kXoN4ogcrI7tBtd6NiFB",
             "https://t.me/+Umx9dEfvgd82Mjhk",
+            "https://www.instagram.com/unimib.scienzedelleducazione/",
           ],
         },
         {
           name: "Comunicazione Interculturale",
-          links: ["https://chat.whatsapp.com/GRRrICI9ixWICY9i255HjA"],
+          links: [
+            "https://chat.whatsapp.com/GRRrICI9ixWICY9i255HjA",
+            "https://www.instagram.com/comunicazione.interculturale/",
+          ],
         },
         {
           name: "Formazione Primaria",
           links: [
             "https://chat.whatsapp.com/JpU0iu9dG7TCutkXnoCm8q",
             "https://t.me/MtricoleFormPrim2223",
+            "https://www.instagram.com/unimib.formazioneprimaria",
           ],
         },
         {
           name: "Scienze pedagogiche",
-          links: ["https://chat.whatsapp.com/IpAFV7o0rLkACAPXhXCo2T"],
+          links: [
+            "https://chat.whatsapp.com/IpAFV7o0rLkACAPXhXCo2T",
+            "https://www.instagram.com/unimib.scienzepedagogiche/",
+          ],
         },
         {
           name: "Scienze antropologiche ed etnologiche",
@@ -361,9 +408,16 @@ const groups = {
           links: ["https://chat.whatsapp.com/CzKl0JRmcmSLD02MwlYMkd"],
         },
       ],
-      other: [],
+      other: [
+        {
+          name: "Instagram",
+          link: "https://www.instagram.com/studentiindipendentimassa/",
+        },
+      ],
     },
-    Giurisprudenza: {
+  },
+  giurisprudenza: {
+    "": {
       list: [
         {
           name: "Giurisprudenza (LM ciclo unico) A-L",
@@ -386,9 +440,16 @@ const groups = {
           links: ["https://chat.whatsapp.com/Ej6qahm7xCiCAXSYuUjEYB"],
         },
       ],
-      other: [],
+      other: [
+        {
+          name: "Instagram",
+          link: "https://www.instagram.com/giuristi_indipendenti/",
+        },
+      ],
     },
-    Psicologia: {
+  },
+  psicologia: {
+    "": {
       list: [
         {
           name: "Scienze e tecniche psicologiche",
@@ -423,11 +484,16 @@ const groups = {
           links: ["https://chat.whatsapp.com/Gc3CsmOq1yoDTImLrE5Ly8"],
         },
       ],
-      other: [],
+      other: [
+        {
+          name: "Instagram",
+          link: "https://www.instagram.com/psicologi.indipendenti.bicocca",
+        },
+      ],
     },
   },
   Medicina: {
-    "Professioni sanitarie": {
+    "": {
       list: [
         {
           name: "Medicina",
@@ -456,7 +522,12 @@ const groups = {
           links: ["https://chat.whatsapp.com/E489W2fTxs9EBBeOqL7Vvo"],
         },
       ],
-      other: [],
+      other: [
+        {
+          name: "Instagram",
+          link: "https://www.instagram.com/studentiindipendentimonza/",
+        },
+      ],
     },
   },
 };

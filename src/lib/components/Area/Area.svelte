@@ -77,12 +77,15 @@
                       class="link
                   {link.includes('whatsapp') ? 'whatsapp' : ''}
                   {link.includes('t.me') ? 'telegram' : ''}
+                  {link.includes('instagram') ? 'instagram' : ''}
                   "
                     >
                       {#if link.includes("whatsapp")}
                         
                       {:else if link.includes("t.me")}
                         
+                      {:else if link.includes("instagram")}
+                        
                       {/if}
                     </a>
                   {/each}

@@ -87,9 +87,10 @@
             .header {
                 display: flex;
                 justify-content: space-between;
+                margin-bottom: 32px;
+
                 .subtitle {
                     @include title(2rem, 600, 0);
-                    margin-bottom: 32px;
                 }
 
                 .other-container {
