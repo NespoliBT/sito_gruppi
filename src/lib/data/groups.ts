@@ -56,7 +56,7 @@ const groups = {
         },
         {
           name: "TTC",
-          links: ["https://t.me/UnimibDataScience2223"],
+          links: ["https://t.me/UnimibTTC2223"],
         },
       ],
       other: [
