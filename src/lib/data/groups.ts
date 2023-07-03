@@ -40,23 +40,23 @@ const groups = {
       list: [
         {
           name: "Informatica Triennale",
-          links: ["https://t.me/UnimibInfo2223"],
+          links: ["https://t.me/+rkse0lLMXU8xZTRk"],
         },
         {
           name: "Informatica Magistrale",
-          links: ["https://t.me/UnimibInfoMagistrale2223"],
+          links: ["https://t.me/+j61QSFxByJNkZmZk"],
         },
         {
           name: "Artificial Intelligence",
-          links: ["https://t.me/UnimibAI2223"],
+          links: ["https://t.me/+jo1JmlKkkgpkZTM0"],
         },
         {
           name: "Data Science",
-          links: ["https://t.me/UnimibDataScience2223"],
+          links: ["https://t.me/+vpWPGxaxyjRlZjg0"],
         },
         {
           name: "TTC",
-          links: ["https://t.me/UnimibTTC2223"],
+          links: ["https://t.me/+ZHHnK_VEQ203YjA8"],
         },
       ],
       other: [
@@ -240,7 +240,7 @@ const groups = {
         },
         {
           name: "Ecoturs",
-          links: ["https://chat.whatsapp.com/GAv6hyZ1WHy4e4DCI0kGGn"],
+          links: ["https://chat.whatsapp.com/BWKQ5la5e1C4TUW3SMXyDn"],
         },
         {
           name: "Ecofin",
@@ -311,7 +311,7 @@ const groups = {
         {
           name: "Sociologia",
           links: [
-            "https://chat.whatsapp.com/IpAFV7o0rLkACAPXhXCo2T",
+            "https://chat.whatsapp.com/IYfyLk5s0AzKeYNjYZRiHj",
             "https://t.me/matricolesociologia2223",
           ],
         },
@@ -346,7 +346,7 @@ const groups = {
         {
           name: "Analisi dei processi sociali",
           links: [
-            "https://chat.whatsapp.com/ENy39RVKiKY1rOzeINXT4i",
+            "https://chat.whatsapp.com/DTLySbUAIY4C2Ij2Mr7lQH",
             "http://t.me/matricoleanalisi2223",
           ],
         },
@@ -373,7 +373,7 @@ const groups = {
           name: "Scienze dell'Educazione",
           links: [
             "https://chat.whatsapp.com/D2kXoN4ogcrI7tBtd6NiFB",
-            "https://t.me/+Umx9dEfvgd82Mjhk",
+            "https://t.me/+noIB1ZCY-LU2NGRk",
             "https://www.instagram.com/unimib.scienzedelleducazione/",
           ],
         },
@@ -388,7 +388,7 @@ const groups = {
           name: "Formazione Primaria",
           links: [
             "https://chat.whatsapp.com/JpU0iu9dG7TCutkXnoCm8q",
-            "https://t.me/MtricoleFormPrim2223",
+            "https://t.me/+JP5qyb6YnRUxMmY0",
             "https://www.instagram.com/unimib.formazioneprimaria",
           ],
         },
