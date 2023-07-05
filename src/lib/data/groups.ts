@@ -8,7 +8,7 @@ const groups = {
         },
         {
           name: "Compravendita libri usati",
-          links: ["https://t.me/joinchat/cqUq1MlVcvdhYWM0"],
+          links: ["https://t.me/+1ACUDVkyXk1kOWZk"],
         },
         {
           name: "Residenze Bicocca",
