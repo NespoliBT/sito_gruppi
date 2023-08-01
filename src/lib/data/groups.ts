@@ -26,6 +26,10 @@ const groups = {
           name: "Percorso 60 CFU ",
           links: ["https://t.me/joinchat/CS-BEBhxwMa_yBOhrAfTYg"],
         },
+        {
+          name: "Accesso all'insegnamento",
+          links: ["https://t.me/Orientamento60CFU"],
+        },
       ],
       other: [
         {
@@ -77,8 +81,16 @@ const groups = {
           links: ["https://chat.whatsapp.com/L4ZwvU7OYazD9WxWIQNo8X"],
         },
         {
-          name: "Scienze e Tecnologie >Ambientali",
+          name: "Geologia Magistrale",
+          links: ["https://chat.whatsapp.com/E9LYOejA3rZFfzZ4EHjGh3"],
+        },
+        {
+          name: "Scienze e Tecnologie Ambientali",
           links: ["https://chat.whatsapp.com/FmcQwAHwGQRLmGQ0CCYvln"],
+        },
+        {
+          name: "Scienze e Tecnologie per l'Ambiente e il Territorio",
+          links: ["https://chat.whatsapp.com/GZlZrZo5Wb1DroOb7tPGy"],
         },
       ],
       other: [
@@ -351,7 +363,7 @@ const groups = {
           ],
         },
         {
-          name: "Turismo magistrale",
+          name: "Turismo Magistrale",
           links: [
             "https://chat.whatsapp.com/FqMO9swSzrjLHz2iau508s",
             "https://t.me/matricoleturismo2223",
