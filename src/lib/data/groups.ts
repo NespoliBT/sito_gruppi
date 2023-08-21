@@ -369,6 +369,10 @@ const groups = {
             "https://t.me/matricoleturismo2223",
           ],
         },
+        {
+          name: "Sicurezza e gestione del rischio",
+          links: ["https://chat.whatsapp.com/GwWW5JOJv1IGNKqdgq8LwC"],
+        },
       ],
       other: [
         {
