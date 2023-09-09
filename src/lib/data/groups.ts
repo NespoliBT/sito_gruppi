@@ -90,7 +90,7 @@ const groups = {
         },
         {
           name: "Scienze e Tecnologie per l'Ambiente e il Territorio",
-          links: ["https://chat.whatsapp.com/GZlZrZo5Wb1DroOb7tPGy"],
+          links: ["https://chat.whatsapp.com/GZlZrZo5Wb1DroOb7tPGy5"],
         },
       ],
       other: [
