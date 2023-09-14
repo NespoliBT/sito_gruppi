@@ -48,7 +48,7 @@ const groups = {
         },
         {
           name: "Informatica Magistrale",
-          links: ["https://t.me/+j61QSFxByJNkZmZk"],
+          links: ["https://t.me/+j61QSFxByJNkZmZk", "https://chat.whatsapp.com/JSJfqLYvtnLKth4XLKnRJC"],
         },
         {
           name: "Artificial Intelligence",
@@ -92,6 +92,10 @@ const groups = {
           name: "Scienze e Tecnologie per l'Ambiente e il Territorio",
           links: ["https://chat.whatsapp.com/GZlZrZo5Wb1DroOb7tPGy"],
         },
+        {
+          name: "Marine Sciences",
+          links: ["https://chat.whatsapp.com/E6XnfiCzAs6Al4KOabr3Tu"]
+        }
       ],
       other: [
         {
@@ -537,6 +541,34 @@ const groups = {
           name: "Biotecnologie mediche",
           links: ["https://chat.whatsapp.com/E489W2fTxs9EBBeOqL7Vvo"],
         },
+        {
+          name: "Ostetricia",
+          links: ["https://chat.whatsapp.com/KD7N2H2yGsPIbUObuMzXOe"]
+        },
+        {
+          name: "Fisioterapia",
+          links: ["https://chat.whatsapp.com/Lg2BtIaIVhLDxpiTAG4jPm"]
+        },
+        {
+          name: "Igiene dentale",
+          links: ["https://chat.whatsapp.com/LnXl7DKjx5uJMew9MbuqcV"]
+        },
+        {
+          name: "Tecniche di laboratorio biomedico",
+          links: ["https://chat.whatsapp.com/Kr0uvhnWgk4KxCtiMypBss"]
+        },
+        {
+          name: "Terapia della Neuro e Psicomotricità dell'Età evolutiva",
+          links: ["https://chat.whatsapp.com/DV4ICkDiYwUCkiJx88TEB6"]
+        },
+        {
+          name: "Tecniche di Radiologia medica",
+          links: ["https://chat.whatsapp.com/IRlcYGDa8Ll7hrH3AJD1pP"]
+        },
+        {
+          name: "Infermieristica",
+          links: ["https://chat.whatsapp.com/G3IJ5YlWWBeBVn3dw3O6gV"]
+        }
       ],
       other: [
         {
