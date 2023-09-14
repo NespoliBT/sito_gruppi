@@ -1,0 +1,31 @@
+@import "./variables.scss";
+
+.homepage {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    @include container;
+
+    .notify {
+        margin-top: 32px;
+        width: 100%;
+        background: var(--accent);
+        font-size: 3rem;
+        padding: 32px;
+        border-radius: 16px;
+        box-shadow: var(--border-shadow);
+        display: grid;
+        place-items: center;
+        max-width: 100%;
+        cursor: pointer;
+        transition: .2s;
+        font-weight: 600;
+        font-family: Arial;
+        color: var(--white);
+        text-align: center;
+
+        &:hover {
+            scale: 1.02;
+        }
+    }
+}

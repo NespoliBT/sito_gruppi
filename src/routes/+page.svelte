@@ -8,6 +8,9 @@
 
 <Header />
 <div class="homepage">
+  <a class="notify" href="/Salvamatricole.pdf" target="_blank">
+    Guida Salvamatricole
+  </a>
   <Groups />
 </div>
 
