@@ -60,7 +60,7 @@ const groups = {
         },
         {
           name: "TTC",
-          links: ["https://t.me/+ZHHnK_VEQ203YjA8"],
+          links: ["https://t.me/UnimibTTC2324"],
         },
       ],
       other: [
