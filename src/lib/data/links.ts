@@ -35,7 +35,7 @@ const links = [
     },
     {
         icon: "󰏫",
-        text: "Appuntamento - Mercatino del libro usato",
+        text: "Appuntamento - Mercatino dei Libri Usati",
         link: "https://calendly.com/mercatinolibrisib/appuntamento"
     },
     {
