@@ -38,6 +38,10 @@
         gap: 32px;
         grid-template-columns: repeat(auto-fit, minmax(430px, 1fr));
 
+        @media screen and (max-width: 500px){
+        grid-template-columns: 1fr;
+        }
+        
         .link {
             border: 4px solid transparent;
             box-shadow: var(--border-shadow);
