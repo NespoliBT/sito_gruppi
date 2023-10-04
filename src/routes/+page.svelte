@@ -1,9 +1,7 @@
 <script lang="ts">
-  import Footer from "$lib/components/Footer/Footer.svelte";
+  import Info from "$lib/components/Info/Info.svelte";
   import Header from "$lib/components/Header/Header.svelte";
   import Groups from "$lib/components/Groups/Groups.svelte";
-
-  console.log("page");
 </script>
 
 <Header />
@@ -11,6 +9,7 @@
   <a class="notify" href="/Salvamatricole.pdf" target="_blank">
     Guida Salvamatricole
   </a>
+  <Info />
   <Groups />
 </div>
 

@@ -1,0 +1,68 @@
+@import '$lib/scss/variables.scss';
+
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+    .title {
+        text-align: center;
+        @include title;
+        margin-bottom: 0;
+    }
+
+    .contacts {
+        display: flex;
+        gap: 32px;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 16px;
+            
+            .contact {
+                transition: .2s;
+                display: grid;
+                place-items: center;
+                padding: 8px;
+                font-family: NerdFont;
+                font-size: 2.5rem;
+                text-align: center;
+
+                &:hover {
+                    scale: 1.05;
+                }
+            }
+    }
+
+    .links {
+        display: grid;
+        gap: 32px;
+        grid-template-columns: repeat(auto-fit, minmax(430px, 1fr));
+
+        .link {
+            border: 4px solid transparent;
+            box-shadow: var(--border-shadow);
+            background-color: var(--white-alt);
+            transition: .2s;
+            padding: 16px 24px;
+            border-radius: 16px;
+            display: flex;
+            align-items: center;
+            gap: 32px;
+            cursor: pointer;
+            
+            .icon {
+                font-family: NerdFont;
+                font-size: 2rem;
+            }
+            a {
+                font-weight: 600;
+                font-size: 1.4rem;
+            }
+            &:hover {
+                border: 4px solid var(--accent);
+                scale: 1.02;
+            }
+        }
+
+    }
+}
