@@ -24,7 +24,7 @@ const groups = {
         },
         {
           name: "Percorso 60 CFU ",
-          links: ["https://t.me/joinchat/CS-BEBhxwMa_yBOhrAfTYg"],
+          links: ["https://t.me/bicocca60cfu"],
         },
         {
           name: "Accesso all'insegnamento",
