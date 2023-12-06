@@ -6,11 +6,11 @@
 
 <Header />
 <div class="homepage">
+  <Info />
   <a class="notify" href="/Salvamatricole.pdf" target="_blank">
     Guida Salvamatricole
   </a>
   <Groups />
-  <Info />
 </div>
 
 <style lang="scss">
