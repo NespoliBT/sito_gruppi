@@ -400,7 +400,7 @@ const groups = {
         {
           name: "Comunicazione Interculturale",
           links: [
-            "https://chat.whatsapp.com/GRRrICI9ixWICY9i255HjA",
+            "https://chat.whatsapp.com/Cc7xPZwONu0JjdcXWSHoyX",
             "https://www.instagram.com/comunicazione.interculturale/",
           ],
         },

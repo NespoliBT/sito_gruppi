@@ -14,9 +14,14 @@ const contacts = [
 ]
 const links = [
     {
-        icon: "󰦅",
-        text: "Prenotazioni Caccia al Tesoro",
-        link: "https://docs.google.com/forms/d/19N0u6ZLRSrvKWn20391byozwDtfxg5PuWnBwDIIKVX8/edit"
+        icon: "󰓫",
+        text: "Catalogo - Mercatino dei Libri Usati",
+        link: "https://docs.google.com/spreadsheets/d/1ED2b_LBc3diM2jbEWqCsj41gJhpqcdXVfce7GNG5zRY/edit?usp=drivesdk"
+    },
+    {
+        icon: "󰏫",
+        text: "Appuntamento - Mercatino dei Libri Usati",
+        link: "https://calendly.com/mercatinolibrisib/appuntamento"
     },
     {
         icon: "󰅏",
@@ -27,16 +32,6 @@ const links = [
         icon: "",
         text: "Pagine Instagram dipartimento",
         link: "https://drive.google.com/file/d/1LoaS_Opa-VorQ9-sMAqrLuNlMTVe8jE_/view?usp=sharing"
-    },
-    {
-        icon: "󰓫",
-        text: "Catalogo - Mercatino dei Libri Usati",
-        link: "https://docs.google.com/spreadsheets/d/1ED2b_LBc3diM2jbEWqCsj41gJhpqcdXVfce7GNG5zRY/edit?usp=drivesdk"
-    },
-    {
-        icon: "󰏫",
-        text: "Appuntamento - Mercatino dei Libri Usati",
-        link: "https://calendly.com/mercatinolibrisib/appuntamento"
     },
     {
         icon: "",
@@ -55,4 +50,4 @@ const links = [
     }
 ]
 
-export {links, contacts};
+export { links, contacts };
