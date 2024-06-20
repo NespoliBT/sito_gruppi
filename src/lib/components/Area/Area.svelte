@@ -1,15 +1,14 @@
 <script lang="ts">
-  import { groups } from "$lib/data/groups";
   import { fly, scale } from "svelte/transition";
   import { onMount } from "svelte";
+
+  export let groups;
 
   export let area: keyof typeof groups;
 
   let group = groups[area];
   let areaName = area.charAt(0).toUpperCase() + area.slice(1);
   let open = false;
-
-  console.log(group);
 
   onMount(() => {
     document.addEventListener("keydown", (e) => {
@@ -26,9 +25,9 @@
   }
 </script>
 
-<button class="area" on:click={() => (open = true)}>
-  {areaName}
-</button>
+  <button class="area" on:click={() => (open = true)} in:scale>
+    {areaName}
+  </button>
 
 {#if open}
   <div class="popup-container" in:scale out:scale on:mouseup={closePopup}>

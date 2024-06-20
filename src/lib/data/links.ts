@@ -47,6 +47,11 @@ const links = [
         icon: "",
         text: "Info per il diritto allo studio",
         link: "https://chat.whatsapp.com/I2ck9KJ9tPbK6shmwZs4Az"
+    },
+    {
+        icon: "󰂺",
+        text: "Programma esteso",
+        link: "https://tr.ee/DoctzwQNhh"
     }
 ]
 

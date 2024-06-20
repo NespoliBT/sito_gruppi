@@ -7,6 +7,40 @@
         @include title;
     }
 
+    .year-selector {
+        display: grid;
+        gap: 32px;
+        grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+        margin-bottom: 32px;
+        padding-bottom: 32px;
+
+        .year {
+            background: var(--white-alt);
+            aspect-ratio: 16/3;
+            font-size: 3rem;
+            padding: 32px;
+            border-radius: 16px;
+            box-shadow: var(--border-shadow);
+            display: grid;
+            place-items: center;
+            max-width: 100%;
+            cursor: pointer;
+            transition: .2s;
+            font-weight: 600;
+            font-family: Arial;
+
+            &:hover {
+                scale: 1.02;
+                box-shadow: 0 0 0 5px var(--accent);
+            }
+
+            &.open {
+                background-color: var(--accent);
+                color: var(--white);
+            }
+        }
+    }
+
     .areas {
         display: grid;
         gap: 32px;
