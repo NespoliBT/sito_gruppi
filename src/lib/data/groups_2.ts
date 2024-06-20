@@ -1,4 +1,4 @@
-const groups_1 = {
+const groups_2 = {
   "gruppi generali": {
     "Tematiche varie": {
       list: [
@@ -580,4 +580,4 @@ const groups_1 = {
   },
 };
 
-export { groups_1 };
+export { groups_2 };
