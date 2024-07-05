@@ -5,8 +5,8 @@
   import Area from "$lib/components/Area/Area.svelte";
 
   const aree_1 = Object.keys(groups_1);
-  const aree_2 = Object.keys(groups_1);
-  const aree_3 = Object.keys(groups_1);
+  const aree_2 = Object.keys(groups_2);
+  const aree_3 = Object.keys(groups_3);
   let opened = 1;
 </script>
 
@@ -19,9 +19,9 @@
     <div class="year {opened == 2 ? 'open' : ''}" on:click={() => (opened = 2)}>
       Secondo anno
     </div>
-    <div class="year {opened == 3 ? 'open' : ''}" on:click={() => (opened = 3)}>
+    <!-- <div class="year {opened == 3 ? 'open' : ''}" on:click={() => (opened = 3)}>
       Terzo anno
-    </div>
+    </div> -->
   </div>
   {#if opened == 1}
     <div class="areas">
