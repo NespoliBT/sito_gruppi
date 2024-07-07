@@ -504,6 +504,46 @@ const groups_1 = {
       ],
     },
   },
+  Medicina: {
+    "": {
+      list: [
+        {
+          name: "Medicina",
+          links: [
+            "https://chat.whatsapp.com/BadFgNxI8y14cBDyWnh2QO",
+          ],
+        },
+        {
+          name: "Odontoiatria",
+          links: ["https://chat.whatsapp.com/BCjKquHm7yMCYFSGZ4prkt"],
+        },
+        {
+          name: "Professioni sanitarie",
+          links: [
+            "https://chat.whatsapp.com/JJ2MehhNewq3STsOCOvatP",
+          ],
+        },
+        {
+          name: "Medicina in inglese",
+          links: ["https://chat.whatsapp.com/FMxxvIo7qM5HlLbgNCHFby"],
+        },
+        {
+          name: "Biotecnologie mediche",
+          links: ["https://chat.whatsapp.com/INrEG2fFdbFCXoRLvFY2VL"],
+        },
+        {
+          name: "Scienze infermieriste ed ostetriche",
+          links: ["https://chat.whatsapp.com/GhHaY7bj31E48LAwnckZsb"]
+        }
+      ],
+      other: [
+        {
+          name: "Instagram",
+          link: "https://www.instagram.com/studentiindipendentimonza/",
+        },
+      ],
+    },
+  },
 };
 
 export { groups_1 };
