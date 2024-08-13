@@ -13,14 +13,14 @@
 :global(html[data-theme="dark"]) {
   --white: #141414;
   --white-alt: #1d1d1d;
-  --accent: #f56528;
+  --accent: #ff7e47;
   --black: #e6e6e6;
   --border-shadow: 0 0 0px 2px var(--accent);
 
   --shadow: unset;
 }
 
-:global(html[data-rgb="true"]) {
+:global(html[data-theme="rgb"]) {
   animation: 2s rgb infinite linear;
 }
 
@@ -32,6 +32,16 @@
 @font-face {
   font-family: DMSans;
   src: url("/fonts/DMSans.ttf") format("truetype");
+}
+
+@keyframes rgb {
+  0% {
+    filter: hue-rotate(0deg);
+  }
+
+  100% {
+    filter: hue-rotate(360deg);
+  }
 }
 
 @keyframes rgb {

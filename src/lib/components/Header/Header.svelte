@@ -29,7 +29,7 @@
 
     document
       .querySelector("html")
-      ?.setAttribute("data-theme", darkModeIcon === "" ? "light" : "dark");
+      ?.setAttribute("data-theme", darkModeIcon === "" ? "light" : "rgb");
   }
 </script>
 
