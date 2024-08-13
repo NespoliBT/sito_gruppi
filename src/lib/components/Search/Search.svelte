@@ -38,8 +38,8 @@
 
     open = true;
 
-    for (const area in groups) {
-      const group = groups[area];
+    for (const area in groups_1) {
+      const group = groups_1[area];
 
       for (const department in group) {
         for (const item of group[department]?.list) {
