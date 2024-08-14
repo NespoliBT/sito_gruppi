@@ -249,8 +249,7 @@ const groups_2 = {
         },
         {
           name: "Ecomark LI-Z",
-          links: [
-            "https://chat.whatsapp.com/HCL3AKu7uHM6w8sDl4btQU",
+          links: ["https://chat.whatsapp.com/DGJp3rMKUQL4Y8OjqJNQ13",
             "https://t.me/MatricoleEcomark2223",
           ],
         },
