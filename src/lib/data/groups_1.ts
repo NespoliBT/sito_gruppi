@@ -413,7 +413,7 @@ const groups_1 = {
         },
         {
           name: "Formazione e sviluppo delle risorse umane",
-          links: ["https://chat.whatsapp.com/Hpe13DyMMEWD7Ko0Ubuslz"],
+          links: ["https://chat.whatsapp.com/CiCDNXEJSN246uE8aZHEqm"],
         },
         {
           name: "Linguaggi artistici per la formazione",
