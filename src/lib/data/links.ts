@@ -16,7 +16,7 @@ const links = [
     {
         icon: "󰓫",
         text: "Catalogo - Mercatino dei Libri Usati",
-        link: "https://docs.google.com/spreadsheets/d/1ED2b_LBc3diM2jbEWqCsj41gJhpqcdXVfce7GNG5zRY/edit?usp=drivesdk"
+        link: "i"
     },
     {
         icon: "󰏫",
