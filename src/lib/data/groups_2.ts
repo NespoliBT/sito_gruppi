@@ -267,7 +267,7 @@ const groups_2 = {
         },
         {
           name: "Ecomarks ITA",
-          links: ["https://chat.whatsapp.com/JsbPOQBAJI96LB3USgPGBu"],
+          links: ["https://chat.whatsapp.com/IuUd9031ZT9G8ctlfDfSFL"],
         },
         {
           name: "Ecomarks ENG",
