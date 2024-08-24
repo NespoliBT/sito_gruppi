@@ -243,7 +243,7 @@ const groups_2 = {
         {
           name: "Ecomark A-LH",
           links: [
-            "https://chat.whatsapp.com/IuUd9031ZT9G8ctlfDfSFL",
+            "https://chat.whatsapp.com/LCXnu6icB3e62t9eaCaFOW",
             "https://t.me/MatricoleEcomark2223",
           ],
         },
