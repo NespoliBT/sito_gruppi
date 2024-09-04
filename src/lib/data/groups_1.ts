@@ -160,15 +160,15 @@ const groups_1 = {
       list: [
         {
           name: "Fisica T1",
-          links: [""],
+          links: ["https://chat.whatsapp.com/Cwq0QU7JfLWGNJGaWZBGJL"],
         },
         {
           name: "Fisica T2",
-          links: [""],
+          links: ["https://chat.whatsapp.com/C4F4O5deJ0SDoLnuICf0Jj"],
         },
         {
           name: "Fisica T3",
-          links: [""],
+          links: ["https://chat.whatsapp.com/JCyeNr7maqR5SpEo9Xjahe"],
         },
         {
           name: "Artificial Intelligence",
