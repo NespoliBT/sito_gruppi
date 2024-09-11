@@ -283,7 +283,7 @@ const groups_1 = {
         },
         {
           name: "Ecoaz MAN",
-          links: ["https://chat.whatsapp.com/HBClYiWc9VGLPI2JOmeApP"],
+          links: ["https://chat.whatsapp.com/Ho9QMgCpuNUJJhN2YEqlKZ"],
         },
       ],
       other: [
