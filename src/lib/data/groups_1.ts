@@ -441,16 +441,16 @@ const groups_1 = {
         },
         {
           name: "Scienze dei servizi giuridici A-L",
-          links: [""],
+          links: ["https://chat.whatsapp.com/LtiXiBrzwRsBqudOsikdJS"],
         },
         {
           name: "Scienze dei servizi giuridici M-Z",
-          links: [""],
+          links: ["https://chat.whatsapp.com/EqLarepy16mEKUkX0FSTsc"],
         },
-        {
+        /*{
           name: "Diritto delle organizzazioni",
           links: [""],
-        },
+        },*/
       ],
       other: [
         {
