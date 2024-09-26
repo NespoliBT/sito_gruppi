@@ -4,10 +4,6 @@ const contacts = [
         link: "https://instagram.com/studentiindipendentibicocca"
     },
     {
-        icon: "",
-        link: "https://www.facebook.com/studentiindipendentibicocca"
-    },
-    {
         icon: "󰇮",
         link: "mailto:studentiindipendentibicocca@gmail.com"
     },
@@ -25,7 +21,7 @@ const links = [
     },
     {
         icon: "󰅏",
-        text: "Guida dei diritti degli studenti",
+        text: "Guida dei diritti dellx studentx",
         link: "https://drive.google.com/file/d/13PwxYN0cukItX4M33k94gbh8zfGntjnE/view?usp=sharing"
     },
     {
