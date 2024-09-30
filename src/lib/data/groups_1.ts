@@ -47,6 +47,10 @@ const groups_1 = {
           links: ["https://t.me/+qs7NDbFjk5I1ZmE0", "https://chat.whatsapp.com/H10ldmNvc8H90fDxuJhs1n", "https://chat.whatsapp.com/BrI3sX34iAV0QLvCQ62xka"],
         },
         {
+          name: "Artificial Intelligence Triennale",
+          links: ["https://t.me/+RmbvT2PGIHQxNWM0"],
+        },
+        {
           name: "Informatica Magistrale",
           links: ["https://t.me/+A7fAyIVoZlg0OGM0"],
         },
@@ -171,7 +175,7 @@ const groups_1 = {
           links: ["https://chat.whatsapp.com/JCyeNr7maqR5SpEo9Xjahe"],
         },
         {
-          name: "Artificial Intelligence",
+          name: "Artificial Intelligence for Science and Technology",
           links: ["https://t.me/+oV4UlWq3d1BjMTBk"],
         },
       ],
