@@ -12,7 +12,7 @@ const links = [
     {
         icon: "󰓫",
         text: "Catalogo - Mercatino dei Libri Usati",
-        link: "i"
+        link: "https://docs.google.com/spreadsheets/d/1fN5Lrf0mI2JEp0-5Jbr-Go0OJI1SV8pjfnJGhf_CY7M"
     },
     {
         icon: "󰏫",
