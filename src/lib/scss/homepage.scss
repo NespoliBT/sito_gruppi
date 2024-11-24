@@ -7,6 +7,17 @@
     gap: 32px;
     @include container;
     margin: 32px auto;
+    position: relative;
+
+    .sss {
+        opacity: 0.02;
+        font-size: 3rem;
+        font-weight: 900;
+        position: absolute;
+        left: 0;
+        top: 0;
+        background: transparent;
+    }
 
     .notify {
         width: 100%;
