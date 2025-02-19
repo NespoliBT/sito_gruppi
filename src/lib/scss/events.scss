@@ -1,0 +1,180 @@
+@import "./variables.scss";
+
+.events-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, #000, #111);
+    z-index: -1;
+}
+
+.events {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 32px;
+    @include container;
+    margin: 32px auto;
+    position: relative;
+
+    .lasers {
+        position: fixed;
+        top: 0vh;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        animation: laser-anim 2s;
+        opacity: .5;
+        overflow: hidden;
+
+        .laser {
+            position: absolute;
+            height: 10px;
+            width: 150%;
+
+            &:nth-child(1),
+            &:nth-child(2),
+            &:nth-child(3),
+            &:nth-child(4),
+            &:nth-child(5) {
+                background: linear-gradient(270deg, red, transparent);
+                animation: laser-right 5s infinite linear;
+                right: -75%;
+                rotate: 20deg;
+            }
+
+            &:nth-child(6),
+            &:nth-child(7),
+            &:nth-child(8),
+            &:nth-child(9),
+            &:nth-child(10) {
+                background: linear-gradient(90deg, red, transparent);
+                animation: laser-left 5s infinite linear;
+                left: -75%;
+                rotate: -20deg;
+            }
+
+            &:nth-child(1) {
+                top: 75%;
+            }
+
+            &:nth-child(2) {
+                top: calc(75% + 40vh);
+            }
+
+            &:nth-child(3) {
+                top: calc(75% + 80vh);
+            }
+
+            &:nth-child(4) {
+                top: calc(75% + 60vh);
+                right: -100%;
+            }
+
+            &:nth-child(5) {
+                top: calc(75% + 80vh);
+                right: -85%;
+            }
+
+            &:nth-child(6) {
+                top: calc(75%);
+            }
+
+            &:nth-child(7) {
+                top: calc(75% + 40vh);
+            }
+
+            &:nth-child(8) {
+                top: calc(75% + 80vh);
+            }
+
+            &:nth-child(9) {
+                top: calc(75% + 60vh);
+                left: -100%;
+            }
+
+            &:nth-child(10) {
+                top: calc(75% + 80vh);
+                left: -85%;
+            }
+        }
+    }
+
+    .title {
+        @include title;
+        text-align: center;
+    }
+
+    .events-list {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        gap: 32px;
+
+        .event-container {
+            transition: .2s;
+            position: relative;
+            min-height: 533px;
+            min-width: 300px;
+            background-size: 100% 100%;
+            background-position: center;
+            background-repeat: no-repeat;
+            border-radius: 16px;
+
+            &:hover {
+                scale: 1.02;
+            }
+        }
+    }
+}
+
+@keyframes laser-right {
+    0% {
+        transform: translateY(-100%);
+        rotate: 46deg;
+        filter: hue-rotate(0deg);
+    }
+
+    50% {
+        transform: translateY(100%);
+        rotate: 42deg;
+        filter: hue-rotate(360deg);
+    }
+
+    100% {
+        transform: translateY(-100%);
+        rotate: 46deg;
+        filter: hue-rotate(0deg);
+    }
+}
+
+@keyframes laser-left {
+    0% {
+        transform: translateY(-100%);
+        rotate: -46deg;
+        filter: hue-rotate(0deg);
+    }
+
+    50% {
+        transform: translateY(100%);
+        rotate: -42deg;
+        filter: hue-rotate(360deg);
+    }
+
+    100% {
+        transform: translateY(-100%);
+        rotate: -46deg;
+        filter: hue-rotate(0deg);
+    }
+}
+
+@keyframes laser-anim {
+    0% {
+        transform: translateY(100%);
+    }
+
+    100% {
+        transform: translateY(0%);
+    }
+}

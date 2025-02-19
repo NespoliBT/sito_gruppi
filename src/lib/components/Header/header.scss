@@ -1,15 +1,18 @@
 @import "$lib/scss/variables.scss";
 
 .header {
+
+  position: relative;
+  transition: 1s;
   width: 100%;
   box-shadow: var(--border-shadow);
   display: flex;
   justify-content: space-between;
   padding: 32px;
-  background-color: var(--white);
   flex-wrap: wrap;
   gap: 32px;
   align-items: center;
+  z-index: 100;
 
   .logo {
     display: flex;

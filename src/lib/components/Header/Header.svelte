@@ -34,13 +34,13 @@
 </script>
 
 <div class="header" bind:this={header}>
-  <div class="logo">
+  <a class="logo" href="/">
     <img src={logo} alt="" on:click={changeMode} on:keydown={null} />
     <div class="title">
       Studenti <br />
       Indipendenti
     </div>
-  </div>
+  </a>
   <Search />
 </div>
 

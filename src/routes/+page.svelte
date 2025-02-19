@@ -3,7 +3,6 @@
   import { setCookie, getCookie } from "$lib/helpers/cookieHelper";
 
   import Info from "$lib/components/Info/Info.svelte";
-  import Header from "$lib/components/Header/Header.svelte";
   import Groups from "$lib/components/Groups/Groups.svelte";
 
   let logo = "/img/logo.png";
@@ -34,14 +33,16 @@
   }
 </script>
 
-<Header />
 <div class="homepage">
   <button on:click={() => changeMode()} class="sss">Super Secret Setting</button
   >
   <Info />
-  <a class="notify" href="/Salvamatricole.pdf" target="_blank">
-    Guida Salvamatricole
-  </a>
+  <div class="center" data-sveltekit-preload-data>
+    <a class="notify" href="/Salvamatricole.pdf" target="_blank">
+      Guida Salvamatricole
+    </a>
+    <a class="events" href="/events">Eventi</a>
+  </div>
   <Groups />
 </div>
 
