@@ -47,7 +47,7 @@ const links = [
     {
         icon: "󰂺",
         text: "Programma esteso",
-        link: "https://tr.ee/DoctzwQNhh"
+        link: "https://drive.google.com/file/d/1UafttzRMHlXK-kmv91GVcv1K6PNjDrQx/view"
     }
 ]
 
