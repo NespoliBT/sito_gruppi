@@ -1,0 +1,57 @@
+@import "./variables.scss";
+
+.programma {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 32px;
+    @include container;
+    margin: 32px auto;
+
+    .title {
+        @include title;
+        text-align: center;
+    }
+
+    .info {
+        @include title(1.5rem, 400, 16px, var(--black));
+    }
+
+    .program-list {
+        column-count: 3;
+        column-gap: 32px;
+
+        .point {
+            display: inline-block;
+            background-color: var(--white-alt);
+            border-radius: 16px;
+            margin-bottom: 32px;
+            padding: 32px;
+            box-shadow: var(--border-shadow);
+            width: 100%;
+
+
+
+            .subtitle {
+                @include title(2rem, 600, 16px, var(--black));
+                background-color: inherit;
+
+                &::before {
+                    content: "👈";
+                    margin-right: 8px;
+                }
+
+                &.active {
+                    &::before {
+                        content: "👉";
+                        margin-right: 8px;
+                    }
+                }
+            }
+
+            .text {
+                font-size: 1.3rem;
+            }
+        }
+    }
+}

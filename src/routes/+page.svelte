@@ -38,10 +38,11 @@
   >
   <Info />
   <div class="center" data-sveltekit-preload-data>
-    <a class="notify" href="/Salvamatricole.pdf" target="_blank">
+    <a class="cta" href="/Salvamatricole.pdf" target="_blank">
       Guida Salvamatricole
     </a>
-    <a class="events" href="/events">Eventi</a>
+    <a class="cta" href="/events">Eventi</a>
+    <a class="cta" href="/programma">Programma</a>
   </div>
   <Groups />
 </div>
