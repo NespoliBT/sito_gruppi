@@ -121,32 +121,48 @@
             }
 
             .event-info {
+                margin-top: 16px;
+
                 .date {
-                    background-color: var(--white);
-                    padding: 8px;
-                    border-radius: 8px;
-                    font-size: 1.3rem;
+                    padding: 16px;
+                    font-size: 1.5rem;
                     text-align: center;
-                    margin-top: 8px;
+                    font-weight: bold;
+                    color: white;
+                    border-radius: 16px;
+                    box-shadow: 0 0 10px 0px red;
+                    animation: 2s hue-rotate infinite linear;
                 }
 
                 .dateSE {
                     display: flex;
-                    gap: 8px;
-                    margin-top: 8px;
+                    gap: 16px;
+                    flex-wrap: wrap;
 
                     .dateStart,
                     .dateEnd {
                         flex: 1 1;
-                        background-color: var(--white);
-                        font-size: 1.3rem;
-                        padding: 8px;
+                        font-size: 1.5rem;
+                        padding: 16px;
                         text-align: center;
-                        border-radius: 8px;
+                        border-radius: 16px;
+                        color: white;
+                        box-shadow: 0 0 10px 0px red;
+                        animation: 2s hue-rotate infinite linear;
                     }
                 }
             }
         }
+    }
+}
+
+@keyframes hue-rotate {
+    0% {
+        filter: hue-rotate(0deg);
+    }
+
+    100% {
+        filter: hue-rotate(360deg);
     }
 }
 

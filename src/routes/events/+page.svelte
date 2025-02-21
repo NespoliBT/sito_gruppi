@@ -61,8 +61,8 @@
             {/if}
             {#if e.dateStart && e.dateEnd}
               <div class="dateSE">
-                <div class="dateStart">{e.dateStart}</div>
-                <div class="dateEnd">{e.dateEnd}</div>
+                <div class="dateStart">Da: {e.dateStart}</div>
+                <div class="dateEnd">A: {e.dateEnd}</div>
               </div>
             {/if}
           </div>
