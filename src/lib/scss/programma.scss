@@ -21,6 +21,14 @@
         column-count: 3;
         column-gap: 32px;
 
+        @media screen and (max-width: 1400px) {
+            column-count: 2;
+        }
+
+        @media screen and (max-width: 950px) {
+            column-count: 1;
+        }
+
         .point {
             display: inline-block;
             background-color: var(--white-alt);
@@ -30,10 +38,8 @@
             box-shadow: var(--border-shadow);
             width: 100%;
 
-
-
             .subtitle {
-                @include title(2rem, 600, 16px, var(--black));
+                @include title(2rem, 600, 0px, var(--black));
                 background-color: inherit;
 
                 &::before {
@@ -50,6 +56,7 @@
             }
 
             .text {
+                margin-top: 16px;
                 font-size: 1.3rem;
             }
         }
