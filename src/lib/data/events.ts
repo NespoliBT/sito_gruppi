@@ -1,27 +1,19 @@
 const events = [
     {
-        img: 'http://placeskull.com/1080/1920/bbaaff/1',
-        link: 'https://www.google.com',
+        img: '/img/ddlsicurezza.jpg',
+        link: 'https://www.instagram.com/p/DF-ez8cMG_b/',
+        date: "22/02/2025"
     },
-
     {
-        img: 'http://placeskull.com/1081/1921/bbaaff/2',
-        link: 'https://www.google.com',
+        img: '/img/asseapertaSS.jpg',
+        link: 'https://www.instagram.com/p/DGF77Q1CpXx/',
+        date: "20/02/2025"
     },
-
     {
-        img: 'http://placeskull.com/1082/1922/bbaaff/3',
-        link: 'https://www.google.com',
-    },
-
-    {
-        img: 'http://placeskull.com/1083/1923/bbaaff/4',
-        link: 'https://www.google.com',
-    },
-
-    {
-        img: 'http://placeskull.com/1084/1924/bbaaff/5',
-        link: 'https://www.google.com',
+        img: '/img/femfest.jpg',
+        link: 'https://www.instagram.com/p/DGVOFD0pdSa/',
+        dateStart: "28/02/2025",
+        dateEnd: "29/03/2025"
     },
 ];
 

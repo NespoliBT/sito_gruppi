@@ -1,6 +1,5 @@
 // a command line tool to create a new svelte component
 
-import { log } from 'console';
 import fs from 'fs';
 
 const componentName = process.argv[2];
