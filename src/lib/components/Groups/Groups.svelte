@@ -11,7 +11,7 @@
 </script>
 
 <div class="groups">
-  <div class="title">Gruppi matricole</div>
+  <div class="title">Gruppi</div>
   <div class="year-selector">
     <div class="year {opened == 1 ? 'open' : ''}" on:click={() => (opened = 1)}>
       Primo anno

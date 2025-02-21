@@ -8,29 +8,6 @@
     .title {
         text-align: center;
         @include title;
-        margin-bottom: 0;
-    }
-
-    .contacts {
-        display: flex;
-        gap: 32px;
-        justify-content: center;
-        align-items: center;
-        margin-bottom: 16px;
-            
-            .contact {
-                transition: .2s;
-                display: grid;
-                place-items: center;
-                padding: 8px;
-                font-family: NerdFont;
-                font-size: 2.5rem;
-                text-align: center;
-
-                &:hover {
-                    scale: 1.05;
-                }
-            }
     }
 
     .links {
@@ -38,10 +15,10 @@
         gap: 32px;
         grid-template-columns: repeat(auto-fit, minmax(430px, 1fr));
 
-        @media screen and (max-width: 500px){
-        grid-template-columns: 1fr;
+        @media screen and (max-width: 500px) {
+            grid-template-columns: 1fr;
         }
-        
+
         .link {
             border: 4px solid transparent;
             box-shadow: var(--border-shadow);
@@ -53,15 +30,17 @@
             align-items: center;
             gap: 32px;
             cursor: pointer;
-            
+
             .icon {
                 font-family: NerdFont;
                 font-size: 2rem;
             }
+
             a {
                 font-weight: 600;
                 font-size: 1.4rem;
             }
+
             &:hover {
                 border: 4px solid var(--accent);
                 scale: 1.02;

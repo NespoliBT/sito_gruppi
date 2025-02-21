@@ -4,6 +4,7 @@
   import { onMount } from "svelte";
   import { setCookie, getCookie } from "$lib/helpers/cookieHelper";
   import Header from "$lib/components/Header/Header.svelte";
+  import { contacts } from "$lib/data/links";
 
   inject({ mode: dev ? "development" : "production" });
 
@@ -37,3 +38,14 @@
 
 <Header />
 <slot />
+<div class="contacts">
+  {#each contacts as contact}
+    <a href={contact.link} class="contact">
+      {contact.icon}
+    </a>
+  {/each}
+</div>
+
+<style lang="scss">
+  @import "$lib/scss/standard.scss";
+</style>
