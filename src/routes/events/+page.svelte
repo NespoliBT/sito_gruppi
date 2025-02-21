@@ -40,15 +40,17 @@
 
     <div class="events-list">
       {#each events as e, i}
-        <div class="event-container">
+        <div
+          class="event-container"
+          in:fly|global={{
+            y: 100,
+            duration: 500,
+            delay: 300 * i,
+          }}
+        >
           <a
             class="event"
             style={`background-image: url(${e.img});`}
-            in:fly|global={{
-              y: 100,
-              duration: 500,
-              delay: 300 * i,
-            }}
             href={e.link}
             target="_blank"
           >
