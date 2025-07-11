@@ -34,19 +34,19 @@
 </script>
 
 <div class="homepage">
-  <div class="center">
-    <a class="cta" href="/events">Eventi</a>
-    <a class="cta" href="/programma">Programma</a>
-  </div>
-  <button on:click={() => changeMode()} class="sss">Super Secret Setting</button
-  >
-  <Info />
   <div class="center" data-sveltekit-preload-data>
     <a class="cta" href="/Salvamatricole.pdf" target="_blank">
       Guida Salvamatricole
     </a>
   </div>
   <Groups />
+  <!-- <div class="center">
+    <a class="cta" href="/events">Eventi</a>
+    <a class="cta" href="/programma">Programma</a>
+  </div> -->
+  <button on:click={() => changeMode()} class="sss">Super Secret Setting</button
+  >
+  <Info />
 </div>
 
 <style lang="scss">

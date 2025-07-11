@@ -48,7 +48,10 @@ const groups_3 = {
         },
         {
           name: "Informatica Magistrale",
-          links: ["https://t.me/+j61QSFxByJNkZmZk", "https://chat.whatsapp.com/JSJfqLYvtnLKth4XLKnRJC"],
+          links: [
+            "https://t.me/+j61QSFxByJNkZmZk",
+            "https://chat.whatsapp.com/JSJfqLYvtnLKth4XLKnRJC",
+          ],
         },
         {
           name: "Artificial Intelligence",
@@ -94,8 +97,8 @@ const groups_3 = {
         },
         {
           name: "Marine Sciences",
-          links: ["https://chat.whatsapp.com/E6XnfiCzAs6Al4KOabr3Tu"]
-        }
+          links: ["https://chat.whatsapp.com/E6XnfiCzAs6Al4KOabr3Tu"],
+        },
       ],
       other: [
         {
@@ -243,14 +246,14 @@ const groups_3 = {
         {
           name: "Ecomark A-LH",
           links: [
-            "https://chat.whatsapp.com/FqHQan7gRZy5bLSnRwjpug",
+            "https://chat.whatsapp.com/LCXnu6icB3e62t9eaCaFOW",
             "https://t.me/MatricoleEcomark2223",
           ],
         },
         {
           name: "Ecomark LI-Z",
           links: [
-            "https://chat.whatsapp.com/HCL3AKu7uHM6w8sDl4btQU",
+            "https://chat.whatsapp.com/DGJp3rMKUQL4Y8OjqJNQ13",
             "https://t.me/MatricoleEcomark2223",
           ],
         },
@@ -268,7 +271,7 @@ const groups_3 = {
         },
         {
           name: "Ecomarks ITA",
-          links: ["https://chat.whatsapp.com/JsbPOQBAJI96LB3USgPGBu"],
+          links: ["https://chat.whatsapp.com/IuUd9031ZT9G8ctlfDfSFL"],
         },
         {
           name: "Ecomarks ENG",
@@ -543,32 +546,32 @@ const groups_3 = {
         },
         {
           name: "Ostetricia",
-          links: ["https://chat.whatsapp.com/KD7N2H2yGsPIbUObuMzXOe"]
+          links: ["https://chat.whatsapp.com/KD7N2H2yGsPIbUObuMzXOe"],
         },
         {
           name: "Fisioterapia",
-          links: ["https://chat.whatsapp.com/Lg2BtIaIVhLDxpiTAG4jPm"]
+          links: ["https://chat.whatsapp.com/Lg2BtIaIVhLDxpiTAG4jPm"],
         },
         {
           name: "Igiene dentale",
-          links: ["https://chat.whatsapp.com/LnXl7DKjx5uJMew9MbuqcV"]
+          links: ["https://chat.whatsapp.com/LnXl7DKjx5uJMew9MbuqcV"],
         },
         {
           name: "Tecniche di laboratorio biomedico",
-          links: ["https://chat.whatsapp.com/Kr0uvhnWgk4KxCtiMypBss"]
+          links: ["https://chat.whatsapp.com/Kr0uvhnWgk4KxCtiMypBss"],
         },
         {
           name: "Terapia della Neuro e Psicomotricità dell'Età evolutiva",
-          links: ["https://chat.whatsapp.com/DV4ICkDiYwUCkiJx88TEB6"]
+          links: ["https://chat.whatsapp.com/DV4ICkDiYwUCkiJx88TEB6"],
         },
         {
           name: "Tecniche di Radiologia medica",
-          links: ["https://chat.whatsapp.com/IRlcYGDa8Ll7hrH3AJD1pP"]
+          links: ["https://chat.whatsapp.com/IRlcYGDa8Ll7hrH3AJD1pP"],
         },
         {
           name: "Infermieristica",
-          links: ["https://chat.whatsapp.com/G3IJ5YlWWBeBVn3dw3O6gV"]
-        }
+          links: ["https://chat.whatsapp.com/G3IJ5YlWWBeBVn3dw3O6gV"],
+        },
       ],
       other: [
         {

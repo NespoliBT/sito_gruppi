@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { groups_1 } from "$lib/data/groups_1";
+  import { groups_1 } from "$lib/data/groups_2";
   import { onMount } from "svelte";
   import { fly } from "svelte/transition";
 

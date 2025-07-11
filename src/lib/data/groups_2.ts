@@ -44,23 +44,27 @@ const groups_2 = {
       list: [
         {
           name: "Informatica Triennale",
-          links: ["https://t.me/+rkse0lLMXU8xZTRk"],
+          links: [
+            "https://t.me/+qs7NDbFjk5I1ZmE0",
+            "https://chat.whatsapp.com/H10ldmNvc8H90fDxuJhs1n",
+            "https://chat.whatsapp.com/BrI3sX34iAV0QLvCQ62xka",
+          ],
+        },
+        {
+          name: "Artificial Intelligence Triennale",
+          links: ["https://t.me/+RmbvT2PGIHQxNWM0"],
         },
         {
           name: "Informatica Magistrale",
-          links: ["https://t.me/+j61QSFxByJNkZmZk", "https://chat.whatsapp.com/JSJfqLYvtnLKth4XLKnRJC"],
-        },
-        {
-          name: "Artificial Intelligence",
-          links: ["https://t.me/+jo1JmlKkkgpkZTM0"],
+          links: ["https://t.me/+A7fAyIVoZlg0OGM0"],
         },
         {
           name: "Data Science",
-          links: ["https://t.me/+vpWPGxaxyjRlZjg0"],
+          links: ["https://t.me/+ujqgx6fLodQ0ZjRk"],
         },
         {
           name: "TTC",
-          links: ["https://t.me/UnimibTTC2324"],
+          links: ["https://t.me/+YnV3Mo7Dji1lODI8"],
         },
       ],
       other: [
@@ -78,24 +82,28 @@ const groups_2 = {
       list: [
         {
           name: "Geologia",
-          links: ["https://chat.whatsapp.com/L4ZwvU7OYazD9WxWIQNo8X"],
+          links: ["https://chat.whatsapp.com/JT2rywsHCdJFZrYMwQe7Av"],
         },
         {
           name: "Geologia Magistrale",
-          links: ["https://chat.whatsapp.com/E9LYOejA3rZFfzZ4EHjGh3"],
+          links: ["https://chat.whatsapp.com/I1EDnt8XXLt9tOWkb69oVz"],
         },
         {
           name: "Scienze e Tecnologie Ambientali",
-          links: ["https://chat.whatsapp.com/FmcQwAHwGQRLmGQ0CCYvln"],
+          links: ["https://chat.whatsapp.com/DuAbu1Jps9M0YfMEmorEuc"],
         },
         {
           name: "Scienze e Tecnologie per l'Ambiente e il Territorio",
-          links: ["https://chat.whatsapp.com/GZlZrZo5Wb1DroOb7tPGy5"],
+          links: ["https://chat.whatsapp.com/KM8hm5JF3jlKSVR0iTkckf"],
         },
         {
           name: "Marine Sciences",
-          links: ["https://chat.whatsapp.com/E6XnfiCzAs6Al4KOabr3Tu"]
-        }
+          links: ["https://chat.whatsapp.com/KrgfPnEEJx0EGLUxWiEkc3"],
+        },
+        {
+          name: "Chimica magistrale",
+          links: ["https://chat.whatsapp.com/KJB0eHH4DRk0RgcO8YyJxC"],
+        },
       ],
       other: [
         {
@@ -108,19 +116,19 @@ const groups_2 = {
       list: [
         {
           name: "Chimica",
-          links: ["https://chat.whatsapp.com/IIKLvq5yfAQ8yuK05D4Rp1"],
+          links: ["https://chat.whatsapp.com/G1kj5ejwvkLEAKSQgTNPb0"],
         },
         {
           name: "Ottica",
-          links: ["https://chat.whatsapp.com/E3yUECwRw0iL9lQUWYxbbp"],
+          links: ["https://chat.whatsapp.com/JQiUjUvSt6TDCL1Y7ORe2p"],
         },
         {
           name: "Materiali",
-          links: ["https://chat.whatsapp.com/L5m6waXnsmlB5oN4m9gUHj"],
+          links: ["https://chat.whatsapp.com/C91SM5ZlGPQ6eoqnc6B1ZC"],
         },
         {
           name: "Material Science",
-          links: ["https://chat.whatsapp.com/KFQux77x7U8I7YLkN3hJ48"],
+          links: ["https://chat.whatsapp.com/DmnKnGPv6Ub5LysErkMCWX"],
         },
       ],
       other: [
@@ -134,19 +142,19 @@ const groups_2 = {
       list: [
         {
           name: "Biotecnologie industriali",
-          links: ["https://chat.whatsapp.com/BUz6G4OxjrQ5HJPrXXadUv"],
+          links: ["https://chat.whatsapp.com/DEcRCCSVcWM01a2SFZPZHw"],
         },
         {
           name: "Biotecnologie",
-          links: ["https://chat.whatsapp.com/EibR7lwNXgAHxuQJwvktZE"],
+          links: ["https://chat.whatsapp.com/Lgqynj4jJZmJ833wm0Bd6t"],
         },
         {
           name: "Scienze biologiche",
-          links: ["https://chat.whatsapp.com/KvlxDN8cmlc7bqQ5Rn78UV"],
+          links: ["https://chat.whatsapp.com/EsvIC1lRexrAVGCWHAl3gM"],
         },
         {
           name: "Biologia",
-          links: ["https://chat.whatsapp.com/F0M6vzz40TdApZl2zHVU6x"],
+          links: ["https://chat.whatsapp.com/KjFfXXnDAF8B0b0fSidlMB"],
         },
       ],
       other: [
@@ -160,15 +168,19 @@ const groups_2 = {
       list: [
         {
           name: "Fisica T1",
-          links: ["https://chat.whatsapp.com/G4iacP9vcW03gON5xbZbfK"],
+          links: ["https://chat.whatsapp.com/Cwq0QU7JfLWGNJGaWZBGJL"],
         },
         {
           name: "Fisica T2",
-          links: ["https://chat.whatsapp.com/HWqpHGzXDaZ4UV3rbzcsBh"],
+          links: ["https://chat.whatsapp.com/C4F4O5deJ0SDoLnuICf0Jj"],
         },
         {
           name: "Fisica T3",
-          links: ["https://chat.whatsapp.com/KUC3lvmAVom1p4FWDugd9w"],
+          links: ["https://chat.whatsapp.com/JCyeNr7maqR5SpEo9Xjahe"],
+        },
+        {
+          name: "Artificial Intelligence for Science and Technology",
+          links: ["https://t.me/+oV4UlWq3d1BjMTBk"],
         },
       ],
       other: [],
@@ -177,14 +189,11 @@ const groups_2 = {
       list: [
         {
           name: "Matematica Triennale",
-          links: ["https://chat.whatsapp.com/JsxamnqaAidDfbuISD9zIS"],
+          links: ["https://chat.whatsapp.com/GoiQcpW0tCIB6nWkZAhFcd"],
         },
         {
           name: "Matematica Magistrale",
-          links: [
-            "https://chat.whatsapp.com/JowxahNMdsAG0EwShvIKNd",
-            "https://t.me/matricole_matematica_LM_2223",
-          ],
+          links: ["https://chat.whatsapp.com/Kxc7TCiL7zR5fL54x5fr6E"],
         },
       ],
       other: [
@@ -200,90 +209,71 @@ const groups_2 = {
       list: [
         {
           name: "Ecoban A-LH",
-          links: [
-            "https://chat.whatsapp.com/EH82U7x0vqDL3EcPYsRmAm",
-            "https://t.me/MatricoleEcoban2223",
-          ],
+          links: ["https://chat.whatsapp.com/GppjR9cjNja0HOFBqQJDIr"],
         },
         {
           name: "Ecoban LI-Z",
-          links: [
-            "https://chat.whatsapp.com/CBMonnY1GeN95YzDpxYnnm",
-            "https://t.me/MatricoleEcoban2223",
-          ],
+          links: ["https://chat.whatsapp.com/KAjzULusfk94OzrQYDUYHe"],
         },
         {
           name: "Ecoamm A-LH",
-          links: [
-            "https://chat.whatsapp.com/ExGkEtej7ik45hT5PPrmPX",
-            "https://t.me/MatricoleEoamm2223",
-          ],
+          links: ["https://chat.whatsapp.com/DippnIJ4ydG9GOJmW6RvWT"],
         },
         {
           name: "Ecoamm LI-Z",
-          links: [
-            "https://chat.whatsapp.com/EhlevK4YdO9D4sJjWPSZ9X",
-            "https://t.me/MatricoleEoamm2223",
-          ],
+          links: ["https://chat.whatsapp.com/IrHEwb6RrHw7pXtgxaBbs4"],
         },
         {
           name: "Ecodam A-LH",
-          links: [
-            "https://chat.whatsapp.com/KqcokhN2iJkC2wkpLmG9xr",
-            "https://t.me/MatricoleEcocomm223",
-          ],
+          links: ["https://chat.whatsapp.com/HzKKMxTNhkdBr45VUJWldC"],
         },
         {
           name: "Ecodam LI-Z",
-          links: [
-            "https://chat.whatsapp.com/LrHTiv1DItE4RDfPrTwKkq",
-            "https://t.me/MatricoleEcocomm223",
-          ],
+          links: ["https://chat.whatsapp.com/KYKmtp46qJWFdX3ZDFyDNW"],
         },
         {
           name: "Ecomark A-LH",
-          links: [
-            "https://chat.whatsapp.com/LCXnu6icB3e62t9eaCaFOW",
-            "https://t.me/MatricoleEcomark2223",
-          ],
+          links: ["https://chat.whatsapp.com/IH7wMQEVK1iJHxSMapMwwk"],
         },
         {
           name: "Ecomark LI-Z",
-          links: ["https://chat.whatsapp.com/DGJp3rMKUQL4Y8OjqJNQ13",
-            "https://t.me/MatricoleEcomark2223",
-          ],
+          links: ["https://chat.whatsapp.com/Hp4eqhSfqckI6qVTBhtMVQ"],
+        },
+        {
+          name: "Economia aziendale e management",
+          links: ["https://chat.whatsapp.com/JFE2RKvcbnS2iK8PrrBZcS"],
         },
         {
           name: "Ecoturs",
-          links: ["https://chat.whatsapp.com/BWKQ5la5e1C4TUW3SMXyDn"],
+          links: ["https://chat.whatsapp.com/BsBENUmn4F6CMiWYAz9Jdc"],
         },
         {
           name: "Ecofin",
-          links: ["https://chat.whatsapp.com/GAv6hyZ1WHy4e4DCI0kGGn"],
+          links: ["https://chat.whatsapp.com/E7XALrFecCxE58zTTzksky"],
         },
         {
           name: "Inteco",
-          links: ["https://chat.whatsapp.com/BQZ637O45yKEuPiCKpBOcN"],
+          links: ["https://chat.whatsapp.com/L650Xf8iDan0hoXC91RumU"],
         },
         {
           name: "Ecomarks ITA",
-          links: ["https://chat.whatsapp.com/IuUd9031ZT9G8ctlfDfSFL"],
+          links: ["https://chat.whatsapp.com/ENZ4dHnTV5VLRWCSQYFbcZ"],
         },
         {
           name: "Ecomarks ENG",
-          links: ["https://chat.whatsapp.com/ENaLw8koXziECqBCincpky"],
+          links: ["https://chat.whatsapp.com/EjrlMkbN4Wo8bQzMAoVUBn"],
         },
         {
           name: "Mages",
-          links: ["https://chat.whatsapp.com/F3KJQrcqM2c8g7CgPIxAUC"],
+          links: ["https://chat.whatsapp.com/IhRPV0WJVTxCHHqwZmSOPr"],
         },
         {
           name: "Ecoaz LEGI",
-          links: ["https://chat.whatsapp.com/BuTfmDNP9M7BRBlofyj5l4"],
+          links: ["https://chat.whatsapp.com/EZcC2G0ANVTDCZfyuMHObJ"],
         },
         {
           name: "Ecoaz MAN",
-          links: ["https://chat.whatsapp.com/HgCjb1pQ1eS14sA2sBlelo"],
+          links: ["https://chat.whatsapp.com/Ho9QMgCpuNUJJhN2YEqlKZ"],
         },
       ],
       other: [
@@ -297,19 +287,19 @@ const groups_2 = {
       list: [
         {
           name: "SGI",
-          links: ["https://chat.whatsapp.com/JYI3IIBo6LG6E6clrZxnpg"],
+          links: ["https://chat.whatsapp.com/ExZ690seKUoFEJfDdmkFkf"],
         },
         {
           name: "SSE",
-          links: ["https://chat.whatsapp.com/F6gVsL8hVDL3b0i0Wta4QC"],
+          links: ["https://chat.whatsapp.com/HBClYiWc9VGLPI2JOmeApP"],
         },
         {
           name: "Biostat",
-          links: ["https://chat.whatsapp.com/EHVHbeJ4cU9BWlOK900BK0"],
+          links: ["https://chat.whatsapp.com/JcwJ23t5NbK4AO7ip8IPOh"],
         },
         {
           name: "Clamses",
-          links: ["https://chat.whatsapp.com/Iy4713HOFIlKL5ArUJCyyl"],
+          links: ["https://chat.whatsapp.com/JwXfzPjNQA7JCRMROVT90a"],
         },
       ],
       other: [
@@ -325,56 +315,35 @@ const groups_2 = {
       list: [
         {
           name: "Sociologia",
-          links: [
-            "https://chat.whatsapp.com/IYfyLk5s0AzKeYNjYZRiHj",
-            "https://t.me/matricolesociologia2223",
-          ],
+          links: ["https://chat.whatsapp.com/KfyBsCrEkqeAQmI6pmpMYS"],
         },
         {
           name: "Servizio Sociale",
-          links: [
-            "https://chat.whatsapp.com/EGOaPJum4IWA6QHPylBr4m",
-            "https://t.me/serviziosociale2223",
-          ],
+          links: ["https://chat.whatsapp.com/HwbgWpJuJUP6eBpSGSp7jE"],
         },
         {
           name: "Scienze del turismo e comunità locale ",
-          links: [
-            "https://chat.whatsapp.com/IDxWCQqQaLQLteXwABepEh",
-            "https://t.me/scienzedelturismo2223",
-          ],
+          links: ["https://chat.whatsapp.com/FInszf54nY78Az9vprDuqR"],
         },
         {
           name: "Scienze dell'organizzazione",
-          links: [
-            "https://chat.whatsapp.com/KYhfeies3m7BGaHJgydNxN",
-            "https://t.me/scienzeorganizzazione2223 ",
-          ],
+          links: ["https://chat.whatsapp.com/HRRQcqaMpc0E2muS8aj98O"],
         },
         {
           name: "Progest",
-          links: [
-            "https://chat.whatsapp.com/HbfdFQcZmqd79vrKwZ7J5j",
-            "http://t.me/matricoleprogest2223",
-          ],
+          links: ["https://chat.whatsapp.com/KGu57f6UKHW4rDlMrjKoVg"],
         },
         {
           name: "Analisi dei processi sociali",
-          links: [
-            "https://chat.whatsapp.com/DTLySbUAIY4C2Ij2Mr7lQH",
-            "http://t.me/matricoleanalisi2223",
-          ],
+          links: ["https://chat.whatsapp.com/KJ3lEbY8GpKHNtmcgBBcfZ"],
         },
         {
           name: "Turismo Magistrale",
-          links: [
-            "https://chat.whatsapp.com/FqMO9swSzrjLHz2iau508s",
-            "https://t.me/matricoleturismo2223",
-          ],
+          links: ["https://chat.whatsapp.com/ErXQQceXkU3FkZjWTdncNJ"],
         },
         {
           name: "Sicurezza e gestione del rischio",
-          links: ["https://chat.whatsapp.com/GwWW5JOJv1IGNKqdgq8LwC"],
+          links: ["https://chat.whatsapp.com/JCKz4zidq0RIXBHEtwYdTc"],
         },
       ],
       other: [
@@ -391,40 +360,36 @@ const groups_2 = {
         {
           name: "Scienze dell'Educazione",
           links: [
-            "https://chat.whatsapp.com/D2kXoN4ogcrI7tBtd6NiFB",
-            "https://t.me/+noIB1ZCY-LU2NGRk",
+            "https://chat.whatsapp.com/KTn15FfrzcC6oh11y6yqZc",
             "https://www.instagram.com/unimib.scienzedelleducazione/",
           ],
         },
         {
           name: "Comunicazione Interculturale",
-          links: [
-            "https://chat.whatsapp.com/Cc7xPZwONu0JjdcXWSHoyX",
-            "https://www.instagram.com/comunicazione.interculturale/",
-          ],
+          links: ["https://chat.whatsapp.com/CBYuow1FcaoHXvUcPcvUXn"],
         },
         {
           name: "Formazione Primaria",
           links: [
-            "https://chat.whatsapp.com/JpU0iu9dG7TCutkXnoCm8q",
-            "https://t.me/+JP5qyb6YnRUxMmY0",
+            "https://chat.whatsapp.com/Hpe13DyMMEWD7Ko0Ubuslz",
             "https://www.instagram.com/unimib.formazioneprimaria",
           ],
         },
         {
           name: "Scienze pedagogiche",
-          links: [
-            "https://chat.whatsapp.com/IpAFV7o0rLkACAPXhXCo2T",
-            "https://www.instagram.com/unimib.scienzepedagogiche/",
-          ],
+          links: ["https://chat.whatsapp.com/FCrBmdfNy0qH1N2Nn4XSun"],
         },
         {
           name: "Scienze antropologiche ed etnologiche",
-          links: ["https://chat.whatsapp.com/D4q7MTFMVnyA52K6mT1k32"],
+          links: ["https://chat.whatsapp.com/GmuzTq7ON7m1bSH5ZnB8zU"],
         },
         {
           name: "Formazione e sviluppo delle risorse umane",
-          links: ["https://chat.whatsapp.com/CzKl0JRmcmSLD02MwlYMkd"],
+          links: ["https://chat.whatsapp.com/CiCDNXEJSN246uE8aZHEqm"],
+        },
+        {
+          name: "Linguaggi artistici per la formazione",
+          links: ["https://chat.whatsapp.com/Fy2rG8K1vwu9ApR3tKx7Qo"],
         },
       ],
       other: [
@@ -440,24 +405,24 @@ const groups_2 = {
       list: [
         {
           name: "Giurisprudenza (LM ciclo unico) A-L",
-          links: ["https://chat.whatsapp.com/C3ZykYf1QDVJjvEJLWWjew"],
+          links: ["https://chat.whatsapp.com/EHqRlEM3CNv0gwt3B7M2uu"],
         },
         {
           name: "Giurisprudenza (LM ciclo unico) M-Z",
-          links: ["https://chat.whatsapp.com/KIAMneRyjiFCBeDNlHJNt7 "],
+          links: ["https://chat.whatsapp.com/GjlnjWcwDzB5QIAvg5yoHZ"],
         },
         {
           name: "Scienze dei servizi giuridici A-L",
-          links: ["https://chat.whatsapp.com/HgqXw4dDENB3hkpn8V1qRL"],
+          links: ["https://chat.whatsapp.com/LtiXiBrzwRsBqudOsikdJS"],
         },
         {
           name: "Scienze dei servizi giuridici M-Z",
-          links: ["https://chat.whatsapp.com/IKorjUQqIK90nJUZtxvC2m"],
+          links: ["https://chat.whatsapp.com/EqLarepy16mEKUkX0FSTsc"],
         },
-        {
+        /*{
           name: "Diritto delle organizzazioni",
-          links: ["https://chat.whatsapp.com/Ej6qahm7xCiCAXSYuUjEYB"],
-        },
+          links: [""],
+        },*/
       ],
       other: [
         {
@@ -472,35 +437,35 @@ const groups_2 = {
       list: [
         {
           name: "Scienze e tecniche psicologiche",
-          links: ["https://chat.whatsapp.com/GuZ3htpAdfl3ARaDoiJ36P"],
+          links: ["https://chat.whatsapp.com/Jb8qNECkYng8xhrG1is8r0"],
         },
         {
           name: "Scienze psicosociali della comunicazione",
-          links: ["https://chat.whatsapp.com/J6mRlIxtvao1jmyxVW3MrU"],
+          links: ["https://chat.whatsapp.com/FqPWllqxDHV6ibaRllli9b"],
         },
         {
           name: "Psicologia sociale, economica e delle decisioni",
-          links: ["https://chat.whatsapp.com/LGvZGLFwa9R8U1BJLwH2rT"],
+          links: ["https://chat.whatsapp.com/HgIbQVmaS4kGZJTTjVGYZG"],
         },
         {
           name: "Psicologia dello sviluppo e dei processi educativi",
-          links: ["https://chat.whatsapp.com/Dw5sy5nOkSe8JPaFOZpMHs"],
+          links: ["https://chat.whatsapp.com/FcnttEY6ntPJEVTDeE7Ycb"],
         },
         {
           name: "Applied experimental psychological sciences",
-          links: ["https://chat.whatsapp.com/CCoPXRiDF5KAJss9TztBhi"],
+          links: ["https://chat.whatsapp.com/ETOnUWSJS0o3L6eG9jEAkw"],
         },
         {
-          name: "Neuropsicologia e neuroscienze cognitive",
-          links: ["https://chat.whatsapp.com/De2XbU2oHex5TSEQEUxCQR"],
+          name: "Neuropsicologia nel ciclo di vita",
+          links: ["https://chat.whatsapp.com/CM1X1xBd2dT4N9TtB3uqoz"],
         },
         {
           name: "Psicologia clinica",
-          links: ["https://chat.whatsapp.com/Fr3027Cs2hXBd35K4PNBl8"],
+          links: ["https://chat.whatsapp.com/CvFvYk2KCtm8lQW4DfwZjH"],
         },
         {
           name: "Lingua dei segni",
-          links: ["https://chat.whatsapp.com/Gc3CsmOq1yoDTImLrE5Ly8"],
+          links: ["https://chat.whatsapp.com/L3YbTiMeYsh02osMN412Vf"],
         },
       ],
       other: [
@@ -516,58 +481,28 @@ const groups_2 = {
       list: [
         {
           name: "Medicina",
-          links: [
-            "https://chat.whatsapp.com/KEL6nP7EtmT2PUzrlgdOri",
-            "https://t.me/MatricoleMedicina2223",
-          ],
+          links: ["https://chat.whatsapp.com/BadFgNxI8y14cBDyWnh2QO"],
         },
         {
           name: "Odontoiatria",
-          links: ["https://chat.whatsapp.com/DFbkfZJx37OKNuIXzMa7uF"],
+          links: ["https://chat.whatsapp.com/BCjKquHm7yMCYFSGZ4prkt"],
         },
         {
           name: "Professioni sanitarie",
-          links: [
-            "https://chat.whatsapp.com/GKFG9mo8vxhAvJT1Gh2jeV",
-            "https://t.me/MatricoleSanitarie2223",
-          ],
+          links: ["https://chat.whatsapp.com/JJ2MehhNewq3STsOCOvatP"],
         },
         {
           name: "Medicina in inglese",
-          links: ["https://chat.whatsapp.com/IgOTnayB2Js41phI57UtZu"],
+          links: ["https://chat.whatsapp.com/FMxxvIo7qM5HlLbgNCHFby"],
         },
         {
           name: "Biotecnologie mediche",
-          links: ["https://chat.whatsapp.com/E489W2fTxs9EBBeOqL7Vvo"],
+          links: ["https://chat.whatsapp.com/INrEG2fFdbFCXoRLvFY2VL"],
         },
         {
-          name: "Ostetricia",
-          links: ["https://chat.whatsapp.com/KD7N2H2yGsPIbUObuMzXOe"]
+          name: "Scienze infermieriste ed ostetriche",
+          links: ["https://chat.whatsapp.com/GhHaY7bj31E48LAwnckZsb"],
         },
-        {
-          name: "Fisioterapia",
-          links: ["https://chat.whatsapp.com/Lg2BtIaIVhLDxpiTAG4jPm"]
-        },
-        {
-          name: "Igiene dentale",
-          links: ["https://chat.whatsapp.com/LnXl7DKjx5uJMew9MbuqcV"]
-        },
-        {
-          name: "Tecniche di laboratorio biomedico",
-          links: ["https://chat.whatsapp.com/Kr0uvhnWgk4KxCtiMypBss"]
-        },
-        {
-          name: "Terapia della Neuro e Psicomotricità dell'Età evolutiva",
-          links: ["https://chat.whatsapp.com/DV4ICkDiYwUCkiJx88TEB6"]
-        },
-        {
-          name: "Tecniche di Radiologia medica",
-          links: ["https://chat.whatsapp.com/IRlcYGDa8Ll7hrH3AJD1pP"]
-        },
-        {
-          name: "Infermieristica",
-          links: ["https://chat.whatsapp.com/G3IJ5YlWWBeBVn3dw3O6gV"]
-        }
       ],
       other: [
         {

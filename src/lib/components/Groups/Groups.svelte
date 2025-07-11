@@ -1,7 +1,7 @@
 <script lang="ts">
-  import { groups_1 } from "$lib/data/groups_1";
-  import { groups_2 } from "$lib/data/groups_2";
-  import { groups_3 } from "$lib/data/groups_3";
+  import { groups_1 } from "$lib/data/groups_2";
+  import { groups_2 } from "$lib/data/groups_3";
+  import { groups_3 } from "$lib/data/groups_1";
   import Area from "$lib/components/Area/Area.svelte";
 
   const aree_1 = Object.keys(groups_1);
@@ -19,9 +19,9 @@
     <div class="year {opened == 2 ? 'open' : ''}" on:click={() => (opened = 2)}>
       Secondo anno
     </div>
-    <!-- <div class="year {opened == 3 ? 'open' : ''}" on:click={() => (opened = 3)}>
+    <div class="year {opened == 3 ? 'open' : ''}" on:click={() => (opened = 3)}>
       Terzo anno
-    </div> -->
+    </div>
   </div>
   {#if opened == 1}
     <div class="areas">
