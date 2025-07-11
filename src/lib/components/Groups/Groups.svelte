@@ -1,7 +1,7 @@
 <script lang="ts">
-  import { groups_1 } from "$lib/data/groups_2";
-  import { groups_2 } from "$lib/data/groups_3";
-  import { groups_3 } from "$lib/data/groups_1";
+  import { groups_1 } from "$lib/data/groups_1";
+  import { groups_2 } from "$lib/data/groups_2";
+  import { groups_3 } from "$lib/data/groups_3";
   import Area from "$lib/components/Area/Area.svelte";
 
   const aree_1 = Object.keys(groups_1);
