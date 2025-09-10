@@ -165,6 +165,10 @@ const groups_1 = {
     Fisica: {
       list: [
         {
+          name: "Physical Science for Innovative Technologies",
+          links: ["https://chat.whatsapp.com/HNdICevJTHhBcrjlxmtSPi"],
+        },
+        {
           name: "Fisica T1 WIP",
           links: ["https://chat.whatsapp.com/G4iacPsssss9vcW03gON5xbZbfK"],
         },
