@@ -169,16 +169,16 @@ const groups_1 = {
           links: ["https://chat.whatsapp.com/HNdICevJTHhBcrjlxmtSPi"],
         },
         {
-          name: "Fisica T1 WIP",
-          links: ["https://chat.whatsapp.com/G4iacPsssss9vcW03gON5xbZbfK"],
+          name: "Fisica T1",
+          links: ["https://chat.whatsapp.com/JQBbHlSsJjG5sxyqItUpxW"],
         },
         {
-          name: "Fisica T2 WIP",
-          links: ["https://chat.whatsapp.com/HWqpHGssssszXDaZ4UV3rbzcsBh"],
+          name: "Fisica T2",
+          links: ["https://chat.whatsapp.com/H0LLJJKxK99APSTxGrCd71"],
         },
         {
-          name: "Fisica T3 WIP",
-          links: ["https://chat.whatsapp.com/KUC3lvsssssmAVom1p4FWDugd9w"],
+          name: "Fisica T3",
+          links: ["https://chat.whatsapp.com/IHP1zmvKFOBGiLc93Z8g9f"],
         },
       ],
       other: [],
@@ -272,6 +272,10 @@ const groups_1 = {
         {
           name: "Ecoaz MAN",
           links: ["https://chat.whatsapp.com/JplSjwxEqvB1KKQ2McIsng"],
+        },
+        {
+          name: "Ecoaz Business Data Scienze",
+          links: ["https://chat.whatsapp.com/JehNbYi7yegFB1SI6MnNdB"],
         },
       ],
       other: [
