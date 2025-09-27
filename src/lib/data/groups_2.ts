@@ -404,14 +404,6 @@ const groups_2 = {
     "": {
       list: [
         {
-          name: "Giurisprudenza (LM ciclo unico) A-L",
-          links: ["https://chat.whatsapp.com/EHqRlEM3CNv0gwt3B7M2uu"],
-        },
-        {
-          name: "Giurisprudenza (LM ciclo unico) M-Z",
-          links: ["https://chat.whatsapp.com/GjlnjWcwDzB5QIAvg5yoHZ"],
-        },
-        {
           name: "Scienze dei servizi giuridici A-L",
           links: ["https://chat.whatsapp.com/LtiXiBrzwRsBqudOsikdJS"],
         },
