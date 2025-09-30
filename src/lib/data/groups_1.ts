@@ -316,8 +316,8 @@ const groups_1 = {
     "": {
       list: [
         {
-          name: "Sociologia WIP",
-          links: ["https://chat.whatsapp.com/IYfyLk5xxxxs0AzKeYNjYZRiHj"],
+          name: "Sociologia",
+          links: ["https://chat.whatsapp.com/LiuJRDYfSOz3Y351N35EL5?mode=ems_share_t"],
         },
         {
           name: "Servizio Sociale",
